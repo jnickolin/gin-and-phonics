@@ -1,0 +1,29 @@
+.passage {
+  padding: 0;
+}
+
+.passage__label {
+  font-family: var(--font-sans);
+  font-size: 10px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+  margin-bottom: 12px;
+  opacity: 0.45;
+}
+
+.passage__title {
+  font-family: var(--font-serif);
+  font-size: clamp(18px, 3vw, 24px);
+  font-weight: 400;
+  margin: 0 0 var(--space-md);
+  line-height: 1.25;
+}
+
+.passage__content {
+  font-family: var(--font-serif);
+  font-size: clamp(14px, 2vw, 16.5px);
+  line-height: 1.75;
+  letter-spacing: 0.01em;
+  white-space: pre-wrap;
+}

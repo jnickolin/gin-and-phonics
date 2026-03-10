@@ -1,0 +1,21 @@
+.citation {
+  font-family: var(--font-sans);
+  font-size: 12px;
+  margin-top: 20px;
+  line-height: 1.5;
+  opacity: 0.6;
+}
+
+.citation__dash {
+  margin-right: 4px;
+}
+
+.citation__link {
+  color: var(--color-ink);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.citation__link:hover {
+  opacity: 0.7;
+}

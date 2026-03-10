@@ -1,0 +1,31 @@
+.header {
+  text-align: center;
+  margin-bottom: var(--space-xl);
+}
+
+.header__rule {
+  height: 1px;
+  background: linear-gradient(to right, transparent, var(--color-ink), transparent);
+  max-width: 480px;
+  margin: 0 auto;
+  opacity: 0.3;
+}
+
+.header__masthead {
+  font-family: var(--font-serif);
+  font-size: clamp(28px, 5vw, 42px);
+  font-weight: 400;
+  letter-spacing: 0.04em;
+  margin: 20px 0 6px;
+  line-height: 1.1;
+}
+
+.header__tagline {
+  font-family: var(--font-serif);
+  font-size: clamp(13px, 2.2vw, 16px);
+  font-style: italic;
+  font-weight: 400;
+  opacity: 0.6;
+  margin: 0 0 20px;
+  letter-spacing: 0.02em;
+}

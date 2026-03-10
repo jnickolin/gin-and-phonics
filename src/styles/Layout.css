@@ -1,0 +1,47 @@
+/* ─── EMPTY STATE ────────────────────────────────────────────────────────── */
+.empty-state {
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.empty-state__icon {
+  font-size: 28px;
+  opacity: 0.2;
+  margin-bottom: var(--space-md);
+}
+
+.empty-state__text {
+  font-family: var(--font-serif);
+  font-size: 15px;
+  font-style: italic;
+  opacity: 0.4;
+  line-height: 1.7;
+}
+
+/* ─── FOOTER ─────────────────────────────────────────────────────────────── */
+.footer {
+  text-align: center;
+  margin-top: var(--space-xl);
+}
+
+.footer__rule {
+  height: 1px;
+  background: linear-gradient(to right, transparent, var(--color-ink), transparent);
+  margin: 0 auto var(--space-md);
+  max-width: 480px;
+  opacity: 0.15;
+}
+
+.footer__text {
+  font-family: var(--font-sans);
+  font-size: 11px;
+  opacity: 0.3;
+  letter-spacing: 0.06em;
+}
+
+/* ─── PAGE SHELL ─────────────────────────────────────────────────────────── */
+.page {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 24px 20px 48px;
+}

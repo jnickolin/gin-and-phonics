@@ -1,0 +1,66 @@
+/* ─── FONT FACE ──────────────────────────────────────────────────────────── */
+/* Cheltenham via local install; Georgia / Palatino as fallback chain */
+@font-face {
+  font-family: 'Cheltenham';
+  src: local('Cheltenham'), local('ITC Cheltenham'), local('Cheltenham-Book');
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* ─── CUSTOM PROPERTIES ──────────────────────────────────────────────────── */
+:root {
+  /* Colour */
+  --color-ink: #054A91;
+  --color-ink-faint: rgba(5, 74, 145, 0.07);
+  --color-ink-ghost: rgba(5, 74, 145, 0.04);
+  --color-cream: #FFFDF8;
+  --color-bg: #ffffff;
+
+  /* Typography */
+  --font-serif: 'Cheltenham', 'Georgia', 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+  --font-sans: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+  /* Spacing */
+  --space-xs: 4px;
+  --space-sm: 8px;
+  --space-md: 16px;
+  --space-lg: 24px;
+  --space-xl: 40px;
+  --space-2xl: 64px;
+
+  /* Layout */
+  --max-width: 960px;
+}
+
+/* ─── RESETS ─────────────────────────────────────────────────────────────── */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-sans);
+  color: var(--color-ink);
+  background: var(--color-bg);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  line-height: 1.5;
+}
+
+a {
+  color: var(--color-ink);
+  text-decoration-skip-ink: auto;
+}
+
+button {
+  font: inherit;
+  color: inherit;
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+}
