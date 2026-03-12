@@ -56,7 +56,8 @@
   }
 
   .header {
-    justify-content: center;
+    display: flex;
+    justify-content: space-between;
     text-align: center;
   }
 
@@ -67,6 +68,6 @@
   .header__tagline {
     text-align: right;
     margin: var(--space-xs) 0 var(--space-md);
-    max-width: 100%;
+    width: 45%;
   }
 }
