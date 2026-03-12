@@ -564,7 +564,7 @@ const passages = [
   {
     tag: "action",
     title: "",
-    content: `You may think this paragraph is intended for some one else. But it isn't. It is really meant for you who are at this instant reading it.\nWhat we now ask you is, Why don't you do something about it? It has troubled you so long one would think you might take the time to sit down calmly and decide once for all what is best to do.\nAt bottom, you know, the whole difficulty lies within yourself. You have shrunk from facing it. You haven't been honest with yourself. You need to exercise your will. Not too much, of course. Rome wasn't built in a day. Take it easy. It will gradually disappear, and you won't know your old self. ---Life.`,
+    content: `You may think this paragraph is intended for some one else. But it isn't. It is really meant for you who are at this instant reading it.\n\nWhat we now ask you is, Why don't you do something about it? It has troubled you so long one would think you might take the time to sit down calmly and decide once for all what is best to do.\n\nAt bottom, you know, the whole difficulty lies within yourself. You have shrunk from facing it. You haven't been honest with yourself. You need to exercise your will. Not too much, of course. Rome wasn't built in a day. Take it easy. It will gradually disappear, and you won't know your old self. ---Life.`,
     author: "Unknown",
     pieceTitle: "Just For You",
     publishedIn: "",
@@ -645,7 +645,7 @@ const passages = [
   {
     tag: "action",
     title: "",
-    content: `Meditation is old and honorable, so why should I not sit, every morning of my life, on the hillside, looking into the shining world? Because, properly attended to, delight, as well as havoc, is suggestion.\nCan one be passionate about the just, the ideal, the sublime, and the holy, and yet commit to no labor in its cause? I don't think so.\n\nAll summations have a beginning, all effect has a story, all kindness begins with the sown seed. Thought buds toward radiance. The gospel of light is the crossroads of--indolence, or action.\n\nBe ignited, or be gone.`,
+    content: `Meditation is old and honorable, so why should I not sit, every morning of my life, on the hillside, looking into the shining world? Because, properly attended to, delight, as well as havoc, is suggestion.\n\nCan one be passionate about the just, the ideal, the sublime, and the holy, and yet commit to no labor in its cause? I don't think so.\n\nAll summations have a beginning, all effect has a story, all kindness begins with the sown seed. Thought buds toward radiance. The gospel of light is the crossroads of--indolence, or action.\n\nBe ignited, or be gone.`,
     author: "Mary Oliver",
     pieceTitle: "What I Have Learned So Far",
     publishedIn: "Red Bird",
