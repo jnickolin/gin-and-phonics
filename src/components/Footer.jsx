@@ -3,7 +3,7 @@ export default function Footer() {
     <footer className="footer">
       <div className="footer__rule" />
       <p className="footer__text">
-        Passages &amp; Pours · Writings sourced from the collection · Recipes paired with care
+        Gin &amp; Phonics · Favorite words compiled over time by Jojo N. · Recipes paired somewhat haphazardly.
       </p>
     </footer>
   );

@@ -1,6 +1,6 @@
 .selector {
   text-align: center;
-  margin-bottom: var(--space-xl);
+  margin-bottom: var(--space-sm);
 }
 
 .selector__prompt {
@@ -15,7 +15,7 @@
   position: relative;
   display: inline-block;
   width: 100%;
-  max-width: 280px;
+  min-width: 220px
 }
 
 .selector__button {

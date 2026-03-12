@@ -22,11 +22,10 @@ export default function TagSelector({ tags, selectedTag, onSelect }) {
     onSelect(tag);
   }
 
-  const label = selectedTag ? TAG_LABELS[selectedTag] || selectedTag : 'Choose a subject…';
+  const label = selectedTag ? TAG_LABELS[selectedTag] || selectedTag : 'What\'s on your mind…';
 
   return (
     <section className="selector">
-      <p className="selector__prompt">What are you sitting with today?</p>
 
       <div className="selector__wrapper" ref={wrapperRef}>
         <button

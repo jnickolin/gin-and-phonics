@@ -18,5 +18,6 @@ export const TAG_LABELS = {
   purpose: "Purpose",
   strength: "Strength",
   summer: "Summer",
+  toast: "A Toast",
   wonder: "Wonder",
 };

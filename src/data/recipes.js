@@ -140,6 +140,14 @@ const recipes = {
     why: "White tea is the most present of teas—barely processed, almost still a leaf. This drink asks you to notice it.",
     source: { author: "Inspired by herbalist pairing traditions", publication: "Shrubs by Michael Dietsch", link: "https://www.strandbooks.com/shrubs-9781581573886.html" },
   },
+  toast: {
+    name: "Lemony Snicket",
+    type: "cocktail",
+    ingredients: ["2 oz gin (hendricks or the botanist", "0.5 oz fresh lemon juice", "0.25 oz simple syrup", "Thomas Henry Bitter Lemon"],
+    instructions: "Make simple syrup by simmering equal parts table sugar and water until sugar is dissolved, then cool and strain. Fill a glass with ice cubes. Add gin, lemon juice, and simple syrup, if using. Stir. Top with Thomas Henry Bitter Lemon. Garnish with lemon slice.",
+    why: "A drink for when you want to say, “Well, that’s just my luck,” and mean it with affection instead of bitterness.",
+    source: { author: "Thomas Henry", publication: "Thomas Henry Drinks", link: "https://www.thomas-henry.com/drinks/lemony-snicket/" },
+  }
 };
 
 export default recipes;

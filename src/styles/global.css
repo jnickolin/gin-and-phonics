@@ -15,10 +15,12 @@
   --color-ink-ghost: rgba(5, 74, 145, 0.04);
   --color-cream: #FFFDF8;
   --color-bg: #ffffff;
+  --color-black: #000000;
 
   /* Typography */
-  --font-serif: 'Cheltenham', 'Georgia', 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
-  --font-sans: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  --font-logo: "bc-novatica-cyr", 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  --font-serif: 'times-new-roman', 'Georgia', 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+  --font-sans: 'helvetica-lt-pro', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
   /* Spacing */
   --space-xs: 4px;
@@ -43,7 +45,7 @@
 
 body {
   font-family: var(--font-sans);
-  color: var(--color-ink);
+  color: var(--color-black);
   background: var(--color-bg);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;

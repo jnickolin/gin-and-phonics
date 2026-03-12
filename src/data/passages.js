@@ -714,6 +714,24 @@ const passages = [
     publishedIn: "The Lion and the Unicorn, Volume 13, Number 1",
     link: "https://muse.jhu.edu/pub/1/article/252346/pdf",
   },
+    {
+    tag: "toast",
+    title: "Unknown",
+    content: `To a long life and a happy one,\nto a quick death, and an easy one,\nTo a pretty boy, and an honest one,\nto a cold pint...\n\nand another one.`,
+    author: "Unknown",
+    pieceTitle: "",
+    publishedIn: "My friend Meg told me this and I need to ask her where it's from.",
+    link: "",
+  },
+      {
+    tag: "toast",
+    title: "Unknown",
+    content: `Cheers to the future, [as you clink glasses]\ntap to the past, [as you tap the glass on the bar]\ndrink to the present.`,
+    author: "If anyone knows, email me.",
+    pieceTitle: "",
+    publishedIn: "",
+    link: "",
+  },
 ];
 
 export default passages;

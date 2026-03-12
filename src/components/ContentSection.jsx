@@ -16,16 +16,13 @@ export default function ContentSection({
       className={`content-section ${isRevealed ? 'content-section--visible' : 'content-section--hidden'}`}
     >
       <div className="content-section__bar">
-        <span className="content-section__topic">
-          {TAG_LABELS[selectedTag] || selectedTag}
-        </span>
         {canShuffle && (
           <button
             className="content-section__shuffle"
             onClick={onShuffle}
             title="Show another passage"
           >
-            Another reading ↻
+            Anotha one ↻
           </button>
         )}
       </div>

@@ -22,13 +22,14 @@ export default function App() {
 
   return (
     <div className="page">
-      <Header />
-
-      <TagSelector
-        tags={tags}
-        selectedTag={selectedTag}
-        onSelect={selectTag}
-      />
+      <div className="header__container">
+          <Header />
+          <TagSelector
+            tags={tags}
+            selectedTag={selectedTag}
+            onSelect={selectTag}
+        />
+      </div>
 
       {passage ? (
         <ContentSection
