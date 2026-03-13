@@ -609,7 +609,7 @@ const passages = [
   {
     tag: "courage",
     title: "",
-    content: `Hang on to your hat. Hang on to your hope. And wind the clock, for tomorrow is another day.`,
+    content: `North Brooklin, Maine\n30 March, 1973\n\nDear Mr. Nadeau,\n\nAs long as there is one upright man, as long as there is one compassionate woman, the contagion may spread and the scene is not desolate. Hope is the thing that is left to us, in a bad time. I shall get up Sunday morning and wind the clock, as a contribution to order and steadfastness.\n\nSailors have an expression about the weather: they say, the weather is a great bluffer. I guess the same is true of our human society — things can look dark, then a break shows in the clouds, and all is changed, sometimes rather suddenly. It is quite obvious that the human race has made a queer mess of life on this planet. But as a people we probably harbor seeds of goodness that have lain for a long time waiting to sprout when the conditions are right. Man’s curiosity, his relentlessness, his inventiveness, his ingenuity have led him into deep trouble. We can only hope that these same traits will enable him to claw his way out.\n\nHang on to your hat. Hang on to your hope. And wind the clock, for tomorrow is another day.\n\nSincerely,\n\nE.B. White`,
     author: "E.B. White",
     pieceTitle: "",
     publishedIn: "Letters of E.B. White",
@@ -708,7 +708,7 @@ const passages = [
   {
     tag: "strength",
     title: "",
-    content: `I shall never forget the occasion where I was visiting a school as a writer and the whole place suddenly fell into an uproar because the school tomboy - a most splendid Britomart of a girl - had beaten up the school bully. Everything stopped in the staffroom while the teachers debated what to do. They wanted to give the tomboy a prize, but decided reluctantly that they had better punish her and the bully too.`,
+    content: `I shall never forget the occasion where I was visiting a school as a writer and the whole place suddenly fell into an uproar because the school tomboy - a most splendid Britomart of a girl - had beaten up the school bully. Everything stopped in the staffroom while the teachers debated what to do. They wanted to give the tomboy a prize, but decided reluctantly that they had better punish her and the bully too. They knew that if, as a child, you do pluck up courage to hit the bully, it is an act of true heroism — as great as that of Beowulf in his old age. I remember passing the tomboy, sitting in her special place of punishment opposite the bully. She was blazing with her deed, as if she had actually been touched by a god. And I thought that this confirmed all my theories: a child in her position is open to any heroic myth I care lo use; she is inward with folktales; she would feel the force of any magical or divine intervention.`,
     author: "Diana Wynne Jones",
     pieceTitle: "Excerpt from The Heroic Idea--A Personal Odyssey",
     publishedIn: "The Lion and the Unicorn, Volume 13, Number 1",
