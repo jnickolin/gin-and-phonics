@@ -1,3 +1,5 @@
+import { useState } from 'react';
+import LandingPage from './components/LandingPage';
 import Header from './components/Header';
 import TagSelector from './components/TagSelector';
 import ContentSection from './components/ContentSection';
@@ -10,6 +12,7 @@ import './styles/Layout.css';
 const tags = getAllTags();
 
 export default function App() {
+  const [showLanding, setShowLanding] = useState(true);
   const {
     selectedTag,
     passage,
@@ -20,20 +23,20 @@ export default function App() {
     shuffle,
   } = usePassageSelection();
 
+  if (showLanding) {
+    return <LandingPage onEnter={() => setShowLanding(false)} />;
+  }
+
   return (
     <div className="page">
-      <div className="header__container">
-          <Header />
-          <TagSelector
-            tags={tags}
-            selectedTag={selectedTag}
-            onSelect={selectTag}
-        />
-      </div>
-
+      <Header />
+      <TagSelector
+        tags={tags}
+        selectedTag={selectedTag}
+        onSelect={selectTag}
+      />
       {passage ? (
         <ContentSection
-          selectedTag={selectedTag}
           passage={passage}
           recipe={recipe}
           isRevealed={isRevealed}
@@ -43,7 +46,6 @@ export default function App() {
       ) : (
         <EmptyState />
       )}
-
       <Footer />
     </div>
   );

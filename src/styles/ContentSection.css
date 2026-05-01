@@ -17,40 +17,31 @@
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  border-bottom: 3px solid var(--color-black);
-  padding-bottom: var(--space-sm);
-  margin-bottom: 28px;
-  flex-wrap: wrap;
-  gap: var(--space-sm);
-}
-
-.content-section__topic {
-  font-family: var(--font-sans);
-  font-size: 11px;
-  font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 0.15em;
+  border-bottom: 2px solid var(--ink);
+  padding-bottom: 8px;
+  margin-bottom: 24px;
 }
 
 .content-section__shuffle {
   font-family: var(--font-sans);
-  font-size: 12px;
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.06em;
+  color: var(--ink-40);
   background: transparent;
   border: none;
-  padding: 4px 12px;
-  letter-spacing: 0.04em;
-  opacity: 0.7;
-  transition: opacity 0.2s;
+  padding: 0;
+  transition: color 0.2s;
 }
 
 .content-section__shuffle:hover {
-  opacity: 1;
+  color: var(--ink);
 }
 
 .content-section__grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 36px;
+  gap: 24px;
 }
 
 @media (max-width: 680px) {

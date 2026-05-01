@@ -1,26 +1,57 @@
-/* ─── FONT FACE ──────────────────────────────────────────────────────────── */
-/* Cheltenham via local install; Georgia / Palatino as fallback chain */
+/* ─── FONTS ──────────────────────────────────────────────────────────────── */
 @font-face {
-  font-family: 'Cheltenham';
-  src: local('Cheltenham'), local('ITC Cheltenham'), local('Cheltenham-Book');
-  font-weight: 400;
+  font-family: 'Meddon';
   font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: url(https://cdn.jsdelivr.net/fontsource/fonts/meddon@latest/latin-400-normal.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'Instrument Serif';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: url(https://cdn.jsdelivr.net/fontsource/fonts/instrument-serif@latest/latin-400-normal.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'Instrument Serif';
+  font-style: italic;
+  font-display: swap;
+  font-weight: 400;
+  src: url(https://cdn.jsdelivr.net/fontsource/fonts/instrument-serif@latest/latin-400-italic.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: url(https://cdn.jsdelivr.net/fontsource/fonts/dm-sans@latest/latin-400-normal.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 500;
+  src: url(https://cdn.jsdelivr.net/fontsource/fonts/dm-sans@latest/latin-500-normal.woff2) format('woff2');
 }
 
 /* ─── CUSTOM PROPERTIES ──────────────────────────────────────────────────── */
 :root {
   /* Colour */
-  --color-ink: #054A91;
-  --color-ink-faint: rgba(5, 74, 145, 0.07);
-  --color-ink-ghost: rgba(5, 74, 145, 0.04);
-  --color-cream: #FFFDF8;
-  --color-bg: #ffffff;
-  --color-black: #000000;
+  --cream: #FAF6F0;
+  --ink: #1A1A18;
+  --vermillion: #C8402D;
+  --mustard-bright: #E8AE2E;
+  --mustard: #D4982A;
+  --ink-40: rgba(26, 26, 24, 0.4);
+  --ink-15: rgba(26, 26, 24, 0.15);
+  --ink-08: rgba(26, 26, 24, 0.08);
+  --ink-04: rgba(26, 26, 24, 0.04);
 
   /* Typography */
-  --font-logo: "bc-novatica-cyr", 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  --font-serif: 'times-new-roman', 'Georgia', 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
-  --font-sans: 'helvetica-lt-pro', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  --font-serif: 'Instrument Serif', Georgia, serif;
+  --font-sans: 'DM Sans', system-ui, sans-serif;
+  --font-cursive: 'Meddon', cursive;
 
   /* Spacing */
   --space-xs: 4px;
@@ -45,15 +76,16 @@
 
 body {
   font-family: var(--font-sans);
-  color: var(--color-black);
-  background: var(--color-bg);
+  color: var(--ink);
+  background: var(--cream);
+  background-image: url("data:image/svg+xml,%3Csvg width='200' height='200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='200' height='200' filter='url(%23n)' opacity='0.04'/%3E%3C/svg%3E");
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   line-height: 1.5;
 }
 
 a {
-  color: var(--color-ink);
+  color: var(--ink);
   text-decoration-skip-ink: auto;
 }
 

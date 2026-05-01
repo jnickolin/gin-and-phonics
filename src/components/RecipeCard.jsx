@@ -45,6 +45,13 @@ export default function RecipeCard({ recipe }) {
           )}
         </div>
       )}
+
+      {recipe.note && (
+        <div className="recipe__note">
+          <div className="recipe__note-label">Author's note</div>
+          <div className="recipe__note-text">{recipe.note}</div>
+        </div>
+      )}
     </div>
   );
 }

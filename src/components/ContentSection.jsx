@@ -1,10 +1,8 @@
-import { TAG_LABELS } from '../data/constants';
 import PassageDisplay from './PassageDisplay';
 import RecipeCard from './RecipeCard';
 import '../styles/ContentSection.css';
 
 export default function ContentSection({
-  selectedTag,
   passage,
   recipe,
   isRevealed,

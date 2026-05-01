@@ -1,3 +1,16 @@
+/* ─── PAGE SHELL ─────────────────────────────────────────────────────────── */
+.page {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 0 28px;
+}
+
+@media (max-width: 680px) {
+  .page {
+    padding: 0 16px;
+  }
+}
+
 /* ─── EMPTY STATE ────────────────────────────────────────────────────────── */
 .empty-state {
   text-align: center;
@@ -11,47 +24,30 @@
 }
 
 .empty-state__icon {
-  font-size: 28px;
-  opacity: 0.2;
+  font-size: 24px;
+  color: var(--ink-40);
   margin-bottom: var(--space-md);
 }
 
 .empty-state__text {
   font-family: var(--font-serif);
-  font-size: 17px;
   font-style: italic;
-  opacity: 0.4;
+  font-size: 15px;
+  color: var(--ink-40);
   line-height: 1.7;
 }
 
 /* ─── FOOTER ─────────────────────────────────────────────────────────────── */
 .footer {
   text-align: center;
-  margin-top: var(--space-xl);
-}
-
-.footer__rule {
-  height: 1px;
-  background: var(--color-black);
-  margin: 0 auto var(--space-md);
+  border-top: 1px solid var(--ink-08);
+  padding: 16px 0;
+  margin-top: var(--space-lg);
 }
 
 .footer__text {
   font-family: var(--font-sans);
-  font-size: 13px;
-  opacity: 0.3;
-  letter-spacing: 0.06em;
-}
-
-/* ─── PAGE SHELL ─────────────────────────────────────────────────────────── */
-.page {
-  max-width: var(--max-width);
-  margin: 0 auto;
-  padding: 24px 20px 48px;
-}
-
-@media (max-width: 680px) {
-  .page {
-    padding: 16px 20px 32px;
-  }
+  font-size: 10px;
+  color: var(--ink-40);
+  letter-spacing: 0.04em;
 }
