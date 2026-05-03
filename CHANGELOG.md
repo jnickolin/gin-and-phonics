@@ -8,6 +8,12 @@ The format is based on [Keep a Changelog] (https://keepachangelog.com/en/1.1.0),
 
 - Added handling to 'anotha one' button for when all passages in selected category have been shown
 
+## [0.0.6] - 2026-05-03
+
+### Changed
+
+- Fixed syntax in [release.yml], removed leading spaces so name:, on:, and jobs are all at column 0
+
 ## [0.0.5] - 2026-05-03
 
 ### Added
