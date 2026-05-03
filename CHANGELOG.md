@@ -8,6 +8,13 @@ The format is based on [Keep a Changelog] (https://keepachangelog.com/en/1.1.0),
 
 - Added handling to 'anotha one' button for when all passages in selected category have been shown
 
+## [0.0.7] - 2026-05-03
+
+### Changed
+
+- Added explicit permission to workflow in [.github/workflows/release.yml] to create releases
+- Updated actions/checkout to v4.2.2 in [.github/workflows/release.yml] to support Node 24
+
 ## [0.0.6] - 2026-05-03
 
 ### Changed
