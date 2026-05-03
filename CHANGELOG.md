@@ -6,11 +6,20 @@ The format is based on [Keep a Changelog] (https://keepachangelog.com/en/1.1.0),
 
 ## [Unreleased]
 
-- Title of recipe.note field changed to "Editor's Note"
 - Added handling to 'anotha one' button for when all passages in selected category have been shown
-- Reorganized and updated README.md
 
-## [0.0.3] - 2026-05-03
+## [0.0.5] - 2026-05-03
+
+### Added
+
+- Created github action [.github/workflows/release.yml] to auto-publish release notes from changelog
+
+### Changed
+
+- Updated README.md to reflect project tree and design updates
+- Changed title of recipe.note field from "Author's note" to "Editor's note"
+
+## [0.0.4] - 2026-05-03
 
 ### Added
 
@@ -49,7 +58,7 @@ The format is based on [Keep a Changelog] (https://keepachangelog.com/en/1.1.0),
 
 - Added toasts to passages.js
 
-## Changed
+### Changed
 
 - Updated empty state vertical padding
 - Enlarged all font sizes to improve readability
