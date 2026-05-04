@@ -15,7 +15,7 @@
   width: 100%;
   padding: 12px 16px;
   font-family: var(--font-sans);
-  font-size: 13px;
+  font-size: 1.56rem;
   background: white;
   border: 1px solid var(--ink);
   border-radius: 0;
@@ -28,7 +28,7 @@
 }
 
 .selector__arrow {
-  font-size: 12px;
+  font-size: 1.44rem;
   margin-left: var(--space-sm);
   transition: transform 0.25s ease;
 }
@@ -68,7 +68,7 @@
   width: 100%;
   padding: 10px 16px;
   font-family: var(--font-sans);
-  font-size: 13px;
+  font-size: 1.56rem;
   background: transparent;
   border: none;
   text-align: left;

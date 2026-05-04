@@ -24,7 +24,7 @@
 
 .landing__byline {
   font-family: var(--font-sans);
-  font-size: 11px;
+  font-size: 1.32rem;
   font-weight: 500;
   letter-spacing: 0.15em;
   text-transform: uppercase;
@@ -36,7 +36,7 @@
 
 .landing__title {
   font-family: var(--font-serif);
-  font-size: 84px;
+  font-size: 10.08rem;
   font-weight: 400;
   line-height: 1;
   color: var(--ink);
@@ -46,7 +46,7 @@
 
 .landing__amp {
   font-family: var(--font-cursive);
-  font-size: 48px;
+  font-size: 5.76rem;
   color: var(--vermillion);
   vertical-align: baseline;
   margin: 0 6px;
@@ -65,19 +65,19 @@
 
 .landing__tagline {
   font-family: var(--font-cursive);
-  font-size: 24px;
+  font-size: 2.88rem;
   color: var(--ink);
   opacity: 0.65;
   margin-bottom: 20px;
   line-height: 2;
   position: relative;
   z-index: 1;
-  max-width: 450px;
+  max-width: 550px;
 }
 
 .landing__explain {
   font-family: var(--font-sans);
-  font-size: 17.5px;
+  font-size: 2.1rem;
   color: rgba(26, 26, 24, 0.5);
   max-width: 380px;
   margin: 20px auto 60px;
@@ -88,7 +88,7 @@
 
 .landing__cta {
   font-family: var(--font-sans);
-  font-size: 12px;
+  font-size: 1.44rem;
   font-weight: 500;
   letter-spacing: 0.12em;
   text-transform: uppercase;
@@ -109,7 +109,7 @@
 
 .landing__deco {
   font-family: var(--font-cursive);
-  font-size: 11px;
+  font-size: 1.32rem;
   color: rgba(26, 26, 24, 0.18);
   position: absolute;
   bottom: 24px;

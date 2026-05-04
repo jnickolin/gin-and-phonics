@@ -6,7 +6,16 @@ The format is based on [Keep a Changelog] (https://keepachangelog.com/en/1.1.0),
 
 ## [Unreleased]
 
-- Added handling to 'anotha one' button for when all passages in selected category have been shown
+- Added handling to 'anotha one' button for when all passages in selected category have been shown - called "barrel is kicked"
+- Added back button so they can see the other passages they've gotten
+- Hyperlinked logo to landing page
+
+## [0.0.8] - 2026-05-04
+
+### Changed
+
+- Set default font size in global.css & updated all font-size attribute values to rem to improve accessibility
+- Enlarged font sizes in all files (except LandingPage.css) by 12% to improve readability
 
 ## [0.0.7] - 2026-05-03
 

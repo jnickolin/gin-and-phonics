@@ -7,22 +7,22 @@
 
 .header__logo {
   font-family: var(--font-serif);
-  font-size: 22px;
+  font-size: 2.64rem;
   color: var(--ink);
 }
 
 .header__amp {
   font-family: var(--font-cursive);
-  font-size: 14px;
+  font-size: 1.68rem;
   color: var(--vermillion);
   margin: 0 2px;
 }
 
 .header__tagline {
   font-family: var(--font-cursive);
-  font-size: 10px;
+  font-size: 1.2rem;
   color: var(--ink-40);
   text-align: right;
-  max-width: 200px;
+  max-width: 250px;
   line-height: 2;
 }
