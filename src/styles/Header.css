@@ -7,8 +7,12 @@
 
 .header__logo {
   font-family: var(--font-serif);
-  font-size: 2.64rem;
+  font-size: 3rem;
   color: var(--ink);
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
 }
 
 .header__amp {

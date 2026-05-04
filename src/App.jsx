@@ -29,7 +29,7 @@ export default function App() {
 
   return (
     <div className="page">
-      <Header />
+      <Header onLogoClick={() => setShowLanding(true)} />
       <TagSelector
         tags={tags}
         selectedTag={selectedTag}
