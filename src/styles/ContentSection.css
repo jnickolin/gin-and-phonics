@@ -1,16 +1,14 @@
 .content-section {
   margin-bottom: var(--space-xl);
-  transition: opacity 0.5s ease, transform 0.5s ease;
+  transition: opacity 0.5s ease;
 }
 
 .content-section--hidden {
   opacity: 0;
-  transform: translateY(12px);
 }
 
 .content-section--visible {
   opacity: 1;
-  transform: translateY(0);
 }
 
 .content-section__bar {

@@ -20,6 +20,10 @@ The format is based on [Keep a Changelog] (https://keepachangelog.com/en/1.1.0),
 
 - Change content screen background to image in global.css to give appearance of paper card
 
+### Fixed
+
+- Fix content section animation: fade out in place on category change instead of shifting down
+
 ## [0.0.9] - 2026-05-04
 
 ### Changed
