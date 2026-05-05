@@ -19,12 +19,17 @@ export function getPassagesByTag(tag) {
 }
 
 /**
- * Returns a single random passage for the given tag.
+ * Returns a single random passage for the given tag, excluding any in excludeSet.
+ * Falls back to the full pool if all passages are excluded.
  */
-export function getRandomPassage(tag) {
+export function getRandomPassage(tag, excludeSet = null) {
   const matches = getPassagesByTag(tag);
   if (matches.length === 0) return null;
-  return matches[Math.floor(Math.random() * matches.length)];
+  const pool =
+    excludeSet && excludeSet.size < matches.length
+      ? matches.filter((p) => !excludeSet.has(p))
+      : matches;
+  return pool[Math.floor(Math.random() * pool.length)];
 }
 
 /**

@@ -20,8 +20,10 @@ export default function App() {
     recipe,
     isRevealed,
     canShuffle,
+    isExhausted,
     selectTag,
     shuffle,
+    resetShuffle,
   } = usePassageSelection();
 
   if (showLanding) {
@@ -43,7 +45,9 @@ export default function App() {
           recipe={recipe}
           isRevealed={isRevealed}
           canShuffle={canShuffle}
+          isExhausted={isExhausted}
           onShuffle={shuffle}
+          onReset={resetShuffle}
         />
       ) : (
         <EmptyState />
