@@ -26,3 +26,6 @@ yarn-error.log*
 
 # Vite
 *.local
+
+# Claude
+CLAUDE.md

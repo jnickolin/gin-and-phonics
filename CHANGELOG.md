@@ -6,8 +6,14 @@ The format is based on [Keep a Changelog] (https://keepachangelog.com/en/1.1.0),
 
 ## [Unreleased]
 
-- Added handling to 'anotha one' button for when all passages in selected category have been shown - called "barrel is kicked"
-- Added back button so they can see the other passages they've gotten
+- Add handling to 'anotha one' button for when all passages in selected category have been shown - called "barrel is kicked"
+- Add back button so they can see the other passages they've gotten
+
+## [0.0.10] - 2026-05-05
+
+### Changed
+
+- Change content screen background to image in global.css to give appearance of paper card
 
 ## [0.0.9] - 2026-05-04
 
