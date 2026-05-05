@@ -8,32 +8,47 @@ export default function ContentSection({
   isRevealed,
   canShuffle,
   isExhausted,
+  canGoBack,
   onShuffle,
   onReset,
+  onBack,
 }) {
   return (
     <section
       className={`content-section ${isRevealed ? 'content-section--visible' : 'content-section--hidden'}`}
     >
       <div className="content-section__bar">
-        {canShuffle && (
-          <button
-            className="content-section__shuffle"
-            onClick={onShuffle}
-            title="Show another passage"
-          >
-            Anotha one ↻
-          </button>
-        )}
-        {isExhausted && (
-          <button
-            className="content-section__shuffle"
-            onClick={onReset}
-            title="Start over from the beginning"
-          >
-            Pour another round ↻
-          </button>
-        )}
+        <div className="content-section__bar-left">
+          {canGoBack && (
+            <button
+              className="content-section__shuffle"
+              onClick={onBack}
+              title="Go back to previous passage"
+            >
+              ← Back
+            </button>
+          )}
+        </div>
+        <div className="content-section__bar-right">
+          {canShuffle && (
+            <button
+              className="content-section__shuffle"
+              onClick={onShuffle}
+              title="Show another passage"
+            >
+              Anotha one ↻
+            </button>
+          )}
+          {isExhausted && (
+            <button
+              className="content-section__shuffle"
+              onClick={onReset}
+              title="Start over from the beginning"
+            >
+              Pour another round ↻
+            </button>
+          )}
+        </div>
       </div>
 
       <div className="content-section__grid">

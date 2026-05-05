@@ -6,7 +6,6 @@ The format is based on [Keep a Changelog] (https://keepachangelog.com/en/1.1.0),
 
 ## [Unreleased]
 
-- Add back button so users can see the other passages they've been served
 - Change LandingPage screen background to image to give textured appearance
 
 ## [0.0.11] - 2026-05-05
@@ -14,6 +13,7 @@ The format is based on [Keep a Changelog] (https://keepachangelog.com/en/1.1.0),
 ### Added
 
 - Add "Barrel is Kicked" state: when all passages for a theme have been seen, replace the passage display with an empty state message and swap the shuffle button for a "Pour another round" reset
+- Add back button so users can navigate to previously seen passages within a theme; going back from the "barrel is kicked" state un-exhausts the session and restores the last passage seen
 
 ## [0.0.10] - 2026-05-05
 

@@ -13,11 +13,17 @@
 
 .content-section__bar {
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
   align-items: center;
   border-bottom: 2px solid var(--ink);
   padding-bottom: 8px;
   margin-bottom: 24px;
+}
+
+.content-section__bar-left,
+.content-section__bar-right {
+  display: flex;
+  align-items: center;
 }
 
 .content-section__shuffle {

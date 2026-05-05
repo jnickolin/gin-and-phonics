@@ -21,8 +21,10 @@ export default function App() {
     isRevealed,
     canShuffle,
     isExhausted,
+    canGoBack,
     selectTag,
     shuffle,
+    goBack,
     resetShuffle,
   } = usePassageSelection();
 
@@ -46,8 +48,10 @@ export default function App() {
           isRevealed={isRevealed}
           canShuffle={canShuffle}
           isExhausted={isExhausted}
+          canGoBack={canGoBack}
           onShuffle={shuffle}
           onReset={resetShuffle}
+          onBack={goBack}
         />
       ) : (
         <EmptyState />
