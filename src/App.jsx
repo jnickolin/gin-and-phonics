@@ -6,10 +6,11 @@ import ContentSection from './components/ContentSection';
 import EmptyState from './components/EmptyState';
 import Footer from './components/Footer';
 import usePassageSelection from './hooks/usePassageSelection';
-import { getAllTags } from './utils/passages';
+import { getAllTags, getPassageCountsByTag } from './utils/passages';
 import './styles/Layout.css';
 
 const tags = getAllTags();
+const passageCounts = getPassageCountsByTag();
 
 export default function App() {
   const [showLanding, setShowLanding] = useState(true);
@@ -33,6 +34,7 @@ export default function App() {
       <TagSelector
         tags={tags}
         selectedTag={selectedTag}
+        passageCounts={passageCounts}
         onSelect={selectTag}
       />
       {passage ? (

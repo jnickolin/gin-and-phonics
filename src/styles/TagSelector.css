@@ -84,3 +84,10 @@
   background: var(--ink-08);
   font-weight: 500;
 }
+
+.selector__count {
+  color: var(--ink-40);
+  font-size: 1.3rem;
+  font-weight: 400;
+  letter-spacing: 0;
+}

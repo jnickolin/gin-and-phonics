@@ -33,3 +33,13 @@ export function getRandomPassage(tag) {
 export function getRecipeForTag(tag) {
   return recipes[tag] || null;
 }
+
+/**
+ * Returns a map of tag → passage count for all tags.
+ */
+export function getPassageCountsByTag() {
+  return passages.reduce((acc, p) => {
+    if (p.tag) acc[p.tag] = (acc[p.tag] || 0) + 1;
+    return acc;
+  }, {});
+}

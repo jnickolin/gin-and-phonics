@@ -2,7 +2,7 @@ import { useState, useEffect, useRef } from 'react';
 import { TAG_LABELS } from '../data/constants';
 import '../styles/TagSelector.css';
 
-export default function TagSelector({ tags, selectedTag, onSelect }) {
+export default function TagSelector({ tags, selectedTag, passageCounts = {}, onSelect }) {
   const [isOpen, setIsOpen] = useState(false);
   const wrapperRef = useRef(null);
 
@@ -23,6 +23,7 @@ export default function TagSelector({ tags, selectedTag, onSelect }) {
   }
 
   const label = selectedTag ? TAG_LABELS[selectedTag] || selectedTag : 'What\'s on your mind…';
+  const selectedCount = selectedTag ? passageCounts[selectedTag] : null;
 
   return (
     <section className="selector">
@@ -34,7 +35,12 @@ export default function TagSelector({ tags, selectedTag, onSelect }) {
           aria-expanded={isOpen}
           aria-haspopup="listbox"
         >
-          <span>{label}</span>
+          <span>
+            {label}
+            {selectedCount != null && (
+              <span className="selector__count"> · {selectedCount}</span>
+            )}
+          </span>
           <span className={`selector__arrow ${isOpen ? 'selector__arrow--open' : ''}`}>
             ▾
           </span>
@@ -51,6 +57,9 @@ export default function TagSelector({ tags, selectedTag, onSelect }) {
                   aria-selected={tag === selectedTag}
                 >
                   {TAG_LABELS[tag] || tag}
+                  {passageCounts[tag] != null && (
+                    <span className="selector__count"> · {passageCounts[tag]}</span>
+                  )}
                 </button>
               </li>
             ))}

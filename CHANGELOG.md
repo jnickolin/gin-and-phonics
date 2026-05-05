@@ -8,8 +8,13 @@ The format is based on [Keep a Changelog] (https://keepachangelog.com/en/1.1.0),
 
 - Add handling to 'anotha one' button for when all passages in selected category have been shown - called "barrel is kicked"
 - Add back button so they can see the other passages they've gotten
+- Change LandingPage screen background to image to give textured appearance
 
 ## [0.0.10] - 2026-05-05
+
+### Added
+
+- Display passage count next to each category in the tag selector dropdown and in the selector bar when a category is selected
 
 ### Changed
 
