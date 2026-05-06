@@ -10,6 +10,10 @@ gin-and-phonics/
 │   ├── favicon.svg
 │   └── transparent-logo.png
 ├── src/
+│   ├── assets/
+│   │   └── images/             # Bundled images (Vite fingerprints these)
+│   │       ├── content-page-background-desktop.png
+│   │       └── content-page-background-mobile.png
 │   ├── components/             # Presentation layer
 │   │   ├── Citation.jsx        # Source attribution for passages
 │   │   ├── ContentSection.jsx  # Two-column passage + recipe layout
@@ -29,7 +33,7 @@ gin-and-phonics/
 │   ├── styles/                 # Per-component CSS (BEM naming, CSS custom properties)
 │   │   ├── Citation.css
 │   │   ├── ContentSection.css
-│   │   ├── global.css          # Resets, custom properties, font imports
+│   │   ├── global.css          # Resets, custom properties, font declarations
 │   │   ├── Header.css
 │   │   ├── LandingPage.css
 │   │   ├── Layout.css
@@ -79,7 +83,7 @@ Or drag-and-drop the `dist/` folder at [app.netlify.com/drop](https://app.netlif
 
 ## Typography
 
-Fonts are loaded via Fontsource (imported in `src/styles/global.css`):
+Fonts are declared via `@font-face` in `src/styles/global.css`, loading from the Fontsource CDN:
 
 - **Instrument Serif** — passages, titles, decorative headings
 - **DM Sans** — UI elements, tags, labels
