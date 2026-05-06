@@ -8,6 +8,15 @@ The format is based on [Keep a Changelog] (https://keepachangelog.com/en/1.1.0),
 
 - Change LandingPage screen background to image to give textured appearance
 
+## [1.0.0] - 2026-05-06
+
+This is the 1.0.0 stable release. The app is considered feature-complete for its initial public launch. Future development continues from here.
+
+### Changed
+
+- Update release workflow to publish releases as non-drafts
+- Update font loading method and add images to structure tree in README.md
+
 ## [0.0.11] - 2026-05-05
 
 ### Added
