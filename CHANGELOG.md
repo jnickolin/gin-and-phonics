@@ -6,7 +6,12 @@ The format is based on [Keep a Changelog] (https://keepachangelog.com/en/1.1.0),
 
 ## [Unreleased]
 
-- Change LandingPage screen background to image to give textured appearance
+## [1.1.0] - 2026-05-08
+
+## Changed
+
+- Update serif font to Times New Roman, and sans serif to JetBrains Mono
+- Update landing page desktop layout styles
 
 ## [1.0.0] - 2026-05-06
 

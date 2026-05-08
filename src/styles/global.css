@@ -1,57 +1,47 @@
 /* ─── FONTS ──────────────────────────────────────────────────────────────── */
 @font-face {
-  font-family: 'Meddon';
+  font-family: 'biroscript-regularus';
   font-style: normal;
   font-display: swap;
   font-weight: 400;
-  src: url(https://cdn.jsdelivr.net/fontsource/fonts/meddon@latest/latin-400-normal.woff2) format('woff2');
+  src: url('/fonts/biroscript-regularus-webfont.woff2') format('woff2'),
+       url('/fonts/biroscript-regularus-webfont.woff') format('woff');
 }
 @font-face {
-  font-family: 'Instrument Serif';
+  font-family: 'JetBrains Mono';
   font-style: normal;
   font-display: swap;
   font-weight: 400;
-  src: url(https://cdn.jsdelivr.net/fontsource/fonts/instrument-serif@latest/latin-400-normal.woff2) format('woff2');
+  src: url(https://cdn.jsdelivr.net/fontsource/fonts/jetbrains-mono@latest/latin-400-normal.woff2) format('woff2');
 }
 @font-face {
-  font-family: 'Instrument Serif';
-  font-style: italic;
-  font-display: swap;
-  font-weight: 400;
-  src: url(https://cdn.jsdelivr.net/fontsource/fonts/instrument-serif@latest/latin-400-italic.woff2) format('woff2');
-}
-@font-face {
-  font-family: 'DM Sans';
-  font-style: normal;
-  font-display: swap;
-  font-weight: 400;
-  src: url(https://cdn.jsdelivr.net/fontsource/fonts/dm-sans@latest/latin-400-normal.woff2) format('woff2');
-}
-@font-face {
-  font-family: 'DM Sans';
+  font-family: 'JetBrains Mono';
   font-style: normal;
   font-display: swap;
   font-weight: 500;
-  src: url(https://cdn.jsdelivr.net/fontsource/fonts/dm-sans@latest/latin-500-normal.woff2) format('woff2');
+  src: url(https://cdn.jsdelivr.net/fontsource/fonts/jetbrains-mono@latest/latin-500-normal.woff2) format('woff2');
 }
 
 /* ─── CUSTOM PROPERTIES ──────────────────────────────────────────────────── */
 :root {
   /* Colour */
+  --white: #FFFFFF;
   --cream: #FAF6F0;
-  --ink: #1A1A18;
+  --ink: #000000;
   --vermillion: #C8402D;
   --mustard-bright: #E8AE2E;
   --mustard: #D4982A;
+  --bic-blue: #0004A6;
+  --pen-red: #DB0424;
   --ink-40: rgba(26, 26, 24, 0.4);
   --ink-15: rgba(26, 26, 24, 0.15);
   --ink-08: rgba(26, 26, 24, 0.08);
   --ink-04: rgba(26, 26, 24, 0.04);
 
   /* Typography */
-  --font-serif: 'Instrument Serif', Georgia, serif;
-  --font-sans: 'DM Sans', system-ui, sans-serif;
-  --font-cursive: 'Meddon', cursive;
+  --font-serif: 'Times New Roman', Georgia, serif;
+  --font-sans: 'JetBrains Mono', monospace;
+  --font-handwritten: 'biroscript-regularus', cursive;
 
   /* Spacing */
   --space-xs: 4px;

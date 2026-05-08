@@ -104,14 +104,14 @@
 }
 
 .recipe__note-label {
-  font-family: var(--font-cursive);
+  font-family: var(--font-handwritten);
   font-size: 1.68rem;
   color: var(--vermillion);
   margin-bottom: 6px;
 }
 
 .recipe__note-text {
-  font-family: var(--font-cursive);
+  font-family: var(--font-handwritten);
   font-size: 1.56rem;
   line-height: 2;
   color: var(--ink-40);
