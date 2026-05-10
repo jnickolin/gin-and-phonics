@@ -6,9 +6,17 @@ The format is based on [Keep a Changelog] (https://keepachangelog.com/en/1.1.0),
 
 ## [Unreleased]
 
+- Fix bug where category shows empty when it still has one passage left
+
+## [1.1.1] - 2026-05-09
+
+### Changed
+
+- Replace double hyphens in passages with em-dashes
+
 ## [1.1.0] - 2026-05-08
 
-## Changed
+### Changed
 
 - Update serif font to Times New Roman, and sans serif font to JetBrains Mono
 - Update landing page responsive layout styles

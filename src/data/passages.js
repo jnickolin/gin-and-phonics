@@ -24,7 +24,7 @@ const passages = [
   {
     tag: "learning",
     title: "",
-    content: `The dream of my life\nIs to lie down by a slow river\nAnd stare at the light in the trees--\nTo learn something by being nothing\nA little while\nbut the rich\nLens of attention.`,
+    content: `The dream of my life\nIs to lie down by a slow river\nAnd stare at the light in the trees—\nTo learn something by being nothing\nA little while\nbut the rich\nLens of attention.`,
     author: "Mary Oliver",
     pieceTitle: "Entering the Kingdom",
     publishedIn: "Twelve Moons",
@@ -69,7 +69,7 @@ const passages = [
   {
     tag: "october",
     title: "",
-    content: `October gave a party;\nThe leaves by hundreds came--\nThe Chestnuts, Oaks, and Maples,\nAnd leaves of every name.\nThe Sunshine spread a carpet,\nAnd everything was grand,\nMiss Weather led the dancing,\nProfessor Wind the band.\n\nThe Chestnuts came in yellow,\nThe Oaks in crimson dressed;\nThe lovely Misses Maple\nIn scarlet looked their best;\nAll balanced to their partners,\nAnd gaily fluttered by;\nThe sight was like a rainbow\nnew fallen from the sky.\n\nThen, in the rustic hollow,\nAt hid-and-seek they played,\nThe party closed at sundown,\nAnd everybody stayed.\nProfessor Wind played louder;\nThey flew along the ground;\nAnd then the party ended\nIn jolly "hands around."`,
+    content: `October gave a party;\nThe leaves by hundreds came—\nThe Chestnuts, Oaks, and Maples,\nAnd leaves of every name.\nThe Sunshine spread a carpet,\nAnd everything was grand,\nMiss Weather led the dancing,\nProfessor Wind the band.\n\nThe Chestnuts came in yellow,\nThe Oaks in crimson dressed;\nThe lovely Misses Maple\nIn scarlet looked their best;\nAll balanced to their partners,\nAnd gaily fluttered by;\nThe sight was like a rainbow\nnew fallen from the sky.\n\nThen, in the rustic hollow,\nAt hid-and-seek they played,\nThe party closed at sundown,\nAnd everybody stayed.\nProfessor Wind played louder;\nThey flew along the ground;\nAnd then the party ended\nIn jolly "hands around."`,
     author: "George Cooper",
     pieceTitle: "October's Party",
     publishedIn: "",
@@ -168,7 +168,7 @@ const passages = [
   {
     tag: "purpose",
     title: "",
-    content: `Find out what makes you kinder, what opens you up and brings out the most loving, generous and unafraid version of you--and go after those things as if nothing else matters. Because, actually, nothing does.`,
+    content: `Find out what makes you kinder, what opens you up and brings out the most loving, generous and unafraid version of you\u2014and go after those things as if nothing else matters. Because, actually, nothing does.`,
     author: "George Saunders",
     pieceTitle: "",
     publishedIn: "Congratulations, by the Way: Some Thoughts on Kindness",
@@ -177,7 +177,7 @@ const passages = [
   {
     tag: "presence",
     title: "",
-    content: `Starting here, what do you want to remember?\nHow sunlight creeps along a shining floor?\nWhat scent of old wood hovers, what softened\nsound from outside fills the air?\n\nWill you ever bring a better gift for the world\nthan the breathing respect that you carry\nwherever you go right now? Are you waiting\nfor time to show you some better thoughts?\n\nWhen you turn around, starting here, lift this\nnew glimpse that you found; carry into evening\nall that you want from this day. This interval you spent reading or hearing this, keep it for life --\n\nWhat can anyone give you greater than now,\nstarting here, right in this room, when you turn\naround?`,
+    content: `Starting here, what do you want to remember?\nHow sunlight creeps along a shining floor?\nWhat scent of old wood hovers, what softened\nsound from outside fills the air?\n\nWill you ever bring a better gift for the world\nthan the breathing respect that you carry\nwherever you go right now? Are you waiting\nfor time to show you some better thoughts?\n\nWhen you turn around, starting here, lift this\nnew glimpse that you found; carry into evening\nall that you want from this day. This interval you spent reading or hearing this, keep it for life—\n\nWhat can anyone give you greater than now,\nstarting here, right in this room, when you turn\naround?`,
     author: "William Stafford",
     pieceTitle: "You Reading This, Be Ready",
     publishedIn: "Ask Me: 100 Essential Poems",
@@ -213,7 +213,7 @@ const passages = [
   {
     tag: "presence",
     title: "The Orange",
-    content: `At lunchtime I bought a huge orange--\nThe size of it made us all laugh.\nI peeled it and shared it with Robert and Dave--\nThey got quarters and I had a half.\n\nAnd that orange, it made me so happy,\nAs ordinary things often do\nJust lately. The shopping. A walk in the park.\nThis is peace and contentment. It's new.\n\nThe rest of the day was quite easy.\nI did all the jobs on my list\nAnd enjoyed them and had some time over.\nI love you. I'm glad I exist.`,
+    content: `At lunchtime I bought a huge orange—\nThe size of it made us all laugh.\nI peeled it and shared it with Robert and Dave—\nThey got quarters and I had a half.\n\nAnd that orange, it made me so happy,\nAs ordinary things often do\nJust lately. The shopping. A walk in the park.\nThis is peace and contentment. It's new.\n\nThe rest of the day was quite easy.\nI did all the jobs on my list\nAnd enjoyed them and had some time over.\nI love you. I'm glad I exist.`,
     author: "Wendy Cope",
     pieceTitle: "The Orange",
     publishedIn: "The Orange and Other Poems",
@@ -240,7 +240,7 @@ const passages = [
   {
     tag: "october",
     title: "",
-    content: `I will cut adrift--I will sit on pavements and drink coffee--I will dream; I will take my mind out of its iron cage and let it swim--this fine October.`,
+    content: `I will cut adrift—I will sit on pavements and drink coffee—I will dream; I will take my mind out of its iron cage and let it swim—this fine October.`,
     author: "Virginia Woolf",
     pieceTitle: "The Diary of Virginia Woolf",
     publishedIn: "The Diary of Virginia Woolf",
@@ -276,7 +276,7 @@ const passages = [
   {
     tag: "connection",
     title: "Masks",
-    content: `She had blue skin,\nAnd so did he.\nHe kept it hid\nAnd so did she.\nThey searched for blue\nTheir whole life through,\nThen passed right by--\nAnd never knew.`,
+    content: `She had blue skin,\nAnd so did he.\nHe kept it hid\nAnd so did she.\nThey searched for blue\nTheir whole life through,\nThen passed right by—\nAnd never knew.`,
     author: "Shel Silverstein",
     pieceTitle: "Masks",
     publishedIn: "Every Thing On It",
@@ -339,7 +339,7 @@ const passages = [
   {
     tag: "courage",
     title: "",
-    content: `A poet is somebody who feels, and who expresses his feeling through\n     words.\nThis may sound easy. It isn't.\nA lot of people think or believe or know they feel--but\nthat's thinking or believing or knowing; not feeling. And poetry is feeling--\nnot knowing or believing or thinking.\n\nAlmost anybody can learn to think or believe or know, but not a single\nhuman being can be taught to feel. Why? Because whenever you think\nor you believe or you know, you're a lot of other people; but the moment\nyou feel, you're nobody-but-yourself.\n\nTo be nobody-but-yourself--in a world which is doing its best,\nnight and day, to make you everybody else--means to\nfight the hardest battle which any human being can fight: and\nnever stop fighting.\n\nAs for expressing nobody-but yourself in words, that means working just\na little harder than anyone who isn't a poet can possibly imagine. Why?\nBecause nothing is quite as easy as using words like somebody else.\nWe all of us do exactly this nearly all of the time--and whenever we do it, we're not poets.\n\nIf, at the end of your first ten or fifteen years of fighting and working\nand feeling, you find you've written one line of one poem, you'll be\nvery lucky indeed.\n\nAnd so my advice to all young people who wish to become poets is: do\nsomething easy, like learning how to blow up the\nworld--unless you're not only willing, but glad, to feel and work and\nfight till you die.\n\nDoes this sound dismal? It isn't.\nIt's the most wonderful life on earth.\nOr so I feel.`,
+    content: `A poet is somebody who feels, and who expresses his feeling through\n     words.\nThis may sound easy. It isn't.\nA lot of people think or believe or know they feel—but\nthat's thinking or believing or knowing; not feeling. And poetry is feeling—\nnot knowing or believing or thinking.\n\nAlmost anybody can learn to think or believe or know, but not a single\nhuman being can be taught to feel. Why? Because whenever you think\nor you believe or you know, you're a lot of other people; but the moment\nyou feel, you're nobody-but-yourself.\n\nTo be nobody-but-yourself—in a world which is doing its best,\nnight and day, to make you everybody else—means to\nfight the hardest battle which any human being can fight: and\nnever stop fighting.\n\nAs for expressing nobody-but yourself in words, that means working just\na little harder than anyone who isn't a poet can possibly imagine. Why?\nBecause nothing is quite as easy as using words like somebody else.\nWe all of us do exactly this nearly all of the time—and whenever we do it, we're not poets.\n\nIf, at the end of your first ten or fifteen years of fighting and working\nand feeling, you find you've written one line of one poem, you'll be\nvery lucky indeed.\n\nAnd so my advice to all young people who wish to become poets is: do\nsomething easy, like learning how to blow up the\nworld—unless you're not only willing, but glad, to feel and work and\nfight till you die.\n\nDoes this sound dismal? It isn't.\nIt's the most wonderful life on earth.\nOr so I feel.`,
     author: "e. e. cummings",
     pieceTitle: "A Poet's Advice to Students",
     publishedIn: "A Miscellany",
@@ -357,7 +357,7 @@ const passages = [
   {
     tag: "existentialism",
     title: "Hamlet's Soliloquy",
-    content: `To be, or not to be, that is the question:--\nWhether 'tis nobler in the mind to suffer\nThe slings and arrows of outrageous fortune,\nOr to take arms against a sea of troubles,\nAnd, by opposing, end them. To die--to sleep;\nNo more; and, by a sleep, to say we end\nthe heart-ache, and the thousand natural shocks\nThat flesh is heir to,--'tis a consummation\nDevoutly to be wished. To die--to sleep;\nTo sleep! perchance to dream: ay, there's the rub;\nFor in that sleep of death what dreams may come,\nWhen we have shuffled off this mortal coil,\nMust give us pause.`,
+    content: `To be, or not to be, that is the question:—\nWhether 'tis nobler in the mind to suffer\nThe slings and arrows of outrageous fortune,\nOr to take arms against a sea of troubles,\nAnd, by opposing, end them. To die—to sleep;\nNo more; and, by a sleep, to say we end\nthe heart-ache, and the thousand natural shocks\nThat flesh is heir to,—'tis a consummation\nDevoutly to be wished. To die—to sleep;\nTo sleep! perchance to dream: ay, there's the rub;\nFor in that sleep of death what dreams may come,\nWhen we have shuffled off this mortal coil,\nMust give us pause.`,
     author: "William Shakespeare",
     pieceTitle: "",
     publishedIn: "Hamlet",
@@ -420,7 +420,7 @@ const passages = [
   {
     tag: "hubris",
     title: "Poems",
-    content: `I'm nobody! Who are you?\nAre you nobody, too?\nThen there's a pair of us--don't tell!\nThey'd banish us, you know.\n\nHow dreary to be somebody!\nHow public, like a frog\nTo tell your name the livelong day\nTo an admiring bog!`,
+    content: `I'm nobody! Who are you?\nAre you nobody, too?\nThen there's a pair of us—don't tell!\nThey'd banish us, you know.\n\nHow dreary to be somebody!\nHow public, like a frog\nTo tell your name the livelong day\nTo an admiring bog!`,
     author: "Emily Dickinson",
     pieceTitle: "",
     publishedIn: "The Poems of Emily Dickinson",
@@ -537,7 +537,7 @@ const passages = [
   {
     tag: "discouragement",
     title: "Lodged",
-    content: `The rain to the wind said,\n'You push and I'll pelt.'\nThey so smote the garden bed.\nThat the flowers actually knelt,\nAnd lay lodged--though not dead.\nI know how the flowers felt.`,
+    content: `The rain to the wind said,\n'You push and I'll pelt.'\nThey so smote the garden bed.\nThat the flowers actually knelt,\nAnd lay lodged—though not dead.\nI know how the flowers felt.`,
     author: "Robert Frost",
     pieceTitle: "Lodged",
     publishedIn: "West-Running Brook",
@@ -564,7 +564,7 @@ const passages = [
   {
     tag: "action",
     title: "",
-    content: `You may think this paragraph is intended for some one else. But it isn't. It is really meant for you who are at this instant reading it.\n\nWhat we now ask you is, Why don't you do something about it? It has troubled you so long one would think you might take the time to sit down calmly and decide once for all what is best to do.\n\nAt bottom, you know, the whole difficulty lies within yourself. You have shrunk from facing it. You haven't been honest with yourself. You need to exercise your will. Not too much, of course. Rome wasn't built in a day. Take it easy. It will gradually disappear, and you won't know your old self. ---Life.`,
+    content: `You may think this paragraph is intended for some one else. But it isn't. It is really meant for you who are at this instant reading it.\n\nWhat we now ask you is, Why don't you do something about it? It has troubled you so long one would think you might take the time to sit down calmly and decide once for all what is best to do.\n\nAt bottom, you know, the whole difficulty lies within yourself. You have shrunk from facing it. You haven't been honest with yourself. You need to exercise your will. Not too much, of course. Rome wasn't built in a day. Take it easy. It will gradually disappear, and you won't know your old self. —-Life.`,
     author: "Unknown",
     pieceTitle: "Just For You",
     publishedIn: "",
@@ -627,7 +627,7 @@ const passages = [
   {
     tag: "alienation",
     title: "",
-    content: `The less you eat, drink and read books; the less you go to the theatre, the dance hall, the public-house; the less you think, love, theorize, paint, sing, fence, etc., the more you save--the greater becomes your treasure which neither moths nor dust will devour--your capital. The less you are, the more you have; the less you express your own life, the greater is your alienated life--the greater is the store of your estranged being.`,
+    content: `The less you eat, drink and read books; the less you go to the theatre, the dance hall, the public-house; the less you think, love, theorize, paint, sing, fence, etc., the more you save—the greater becomes your treasure which neither moths nor dust will devour—your capital. The less you are, the more you have; the less you express your own life, the greater is your alienated life—the greater is the store of your estranged being.`,
     author: "Karl Marx",
     pieceTitle: "The Meaning of Human Requirements",
     publishedIn: "Economic and Philosophic Manuscripts of 1844",
@@ -645,7 +645,7 @@ const passages = [
   {
     tag: "action",
     title: "",
-    content: `Meditation is old and honorable, so why should I not sit, every morning of my life, on the hillside, looking into the shining world? Because, properly attended to, delight, as well as havoc, is suggestion.\n\nCan one be passionate about the just, the ideal, the sublime, and the holy, and yet commit to no labor in its cause? I don't think so.\n\nAll summations have a beginning, all effect has a story, all kindness begins with the sown seed. Thought buds toward radiance. The gospel of light is the crossroads of--indolence, or action.\n\nBe ignited, or be gone.`,
+    content: `Meditation is old and honorable, so why should I not sit, every morning of my life, on the hillside, looking into the shining world? Because, properly attended to, delight, as well as havoc, is suggestion.\n\nCan one be passionate about the just, the ideal, the sublime, and the holy, and yet commit to no labor in its cause? I don't think so.\n\nAll summations have a beginning, all effect has a story, all kindness begins with the sown seed. Thought buds toward radiance. The gospel of light is the crossroads of—indolence, or action.\n\nBe ignited, or be gone.`,
     author: "Mary Oliver",
     pieceTitle: "What I Have Learned So Far",
     publishedIn: "Red Bird",
@@ -654,7 +654,7 @@ const passages = [
   {
     tag: "purpose",
     title: "",
-    content: `On cold evenings\nmy grandmother,\nwith ownership of half her mind--\nthe other half having flown back to Bohemia--\n\nspread newspapers over the porch floor\nso, she said, the garden ants could crawl beneath,\nas under a blanket, and keep warm,\n\nand what shall I wish for, for myself,\nbut, being so struck by the lightning of years,\nto be like her with what is left, that loving.`,
+    content: `On cold evenings\nmy grandmother,\nwith ownership of half her mind—\nthe other half having flown back to Bohemia—\n\nspread newspapers over the porch floor\nso, she said, the garden ants could crawl beneath,\nas under a blanket, and keep warm,\n\nand what shall I wish for, for myself,\nbut, being so struck by the lightning of years,\nto be like her with what is left, that loving.`,
     author: "Mary Oliver",
     pieceTitle: "In Praise of Craziness of a Certain Kind",
     publishedIn: "New and Selected Poems, Volume 2",
@@ -672,7 +672,7 @@ const passages = [
   {
     tag: "purpose",
     title: "",
-    content: `Dust if you must, but wouldn't it be better\nTo paint a picture or write a letter,\nBake a cake or plant a seed,\nPonder the difference between want and need?\n\nDust if you must, but there's not much time,\nWith rivers to swim and mountains to climb,\nMusic to hear and books to read,\nFriends to cherish and life to lead.\n\nDust if you must, but the world's out there,\nWith the sun in your eyes, the wind in your hair,\nA flutter of snow, a shower of rain.\nthis day will not come around again.\n\nDust if you must, but bear in mind,\nOld age will come and it's not kind.\nAnd when you go--and go you must--\nYou, yourself, will make more dust.`,
+    content: `Dust if you must, but wouldn't it be better\nTo paint a picture or write a letter,\nBake a cake or plant a seed,\nPonder the difference between want and need?\n\nDust if you must, but there's not much time,\nWith rivers to swim and mountains to climb,\nMusic to hear and books to read,\nFriends to cherish and life to lead.\n\nDust if you must, but the world's out there,\nWith the sun in your eyes, the wind in your hair,\nA flutter of snow, a shower of rain.\nthis day will not come around again.\n\nDust if you must, but bear in mind,\nOld age will come and it's not kind.\nAnd when you go—and go you must—\nYou, yourself, will make more dust.`,
     author: "Rose Milligan",
     pieceTitle: "Dust If You Must",
     publishedIn: "",
@@ -710,7 +710,7 @@ const passages = [
     title: "",
     content: `I shall never forget the occasion where I was visiting a school as a writer and the whole place suddenly fell into an uproar because the school tomboy - a most splendid Britomart of a girl - had beaten up the school bully. Everything stopped in the staffroom while the teachers debated what to do. They wanted to give the tomboy a prize, but decided reluctantly that they had better punish her and the bully too. They knew that if, as a child, you do pluck up courage to hit the bully, it is an act of true heroism — as great as that of Beowulf in his old age. I remember passing the tomboy, sitting in her special place of punishment opposite the bully. She was blazing with her deed, as if she had actually been touched by a god. And I thought that this confirmed all my theories: a child in her position is open to any heroic myth I care lo use; she is inward with folktales; she would feel the force of any magical or divine intervention.`,
     author: "Diana Wynne Jones",
-    pieceTitle: "Excerpt from The Heroic Idea--A Personal Odyssey",
+    pieceTitle: "Excerpt from The Heroic Idea—A Personal Odyssey",
     publishedIn: "The Lion and the Unicorn, Volume 13, Number 1",
     link: "https://muse.jhu.edu/pub/1/article/252346/pdf",
   },
