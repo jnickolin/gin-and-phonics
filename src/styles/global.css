@@ -8,6 +8,48 @@
        url('/fonts/biroscript-regularus-webfont.woff') format('woff');
 }
 @font-face {
+  font-family: 'EB Garamond';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: url(https://cdn.jsdelivr.net/fontsource/fonts/eb-garamond@latest/latin-400-normal.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'EB Garamond';
+  font-style: italic;
+  font-display: swap;
+  font-weight: 400;
+  src: url(https://cdn.jsdelivr.net/fontsource/fonts/eb-garamond@latest/latin-400-italic.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'EB Garamond';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 500;
+  src: url(https://cdn.jsdelivr.net/fontsource/fonts/eb-garamond@latest/latin-500-normal.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'EB Garamond';
+  font-style: italic;
+  font-display: swap;
+  font-weight: 500;
+  src: url(https://cdn.jsdelivr.net/fontsource/fonts/eb-garamond@latest/latin-500-italic.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'EB Garamond';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 600;
+  src: url(https://cdn.jsdelivr.net/fontsource/fonts/eb-garamond@latest/latin-600-normal.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'EB Garamond';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 700;
+  src: url(https://cdn.jsdelivr.net/fontsource/fonts/eb-garamond@latest/latin-700-normal.woff2) format('woff2');
+}
+@font-face {
   font-family: 'JetBrains Mono';
   font-style: normal;
   font-display: swap;
@@ -39,7 +81,7 @@
   --ink-04: rgba(26, 26, 24, 0.04);
 
   /* Typography */
-  --font-serif: 'Times New Roman', Georgia, serif;
+  --font-serif: 'EB Garamond', Georgia, serif;
   --font-sans: 'JetBrains Mono', monospace;
   --font-handwritten: 'biroscript-regularus', cursive;
 

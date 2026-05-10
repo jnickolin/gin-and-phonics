@@ -13,6 +13,7 @@ The format is based on [Keep a Changelog] (https://keepachangelog.com/en/1.1.0),
 ### Changed
 
 - Replace double hyphens in passages with em-dashes
+- Replace Times New Roman with EB Garamond
 
 ### Removed
 
