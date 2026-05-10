@@ -15,13 +15,6 @@
   cursor: pointer;
 }
 
-.header__amp {
-  font-family: var(--font-handwritten);
-  font-size: 1.68rem;
-  color: var(--vermillion);
-  margin: 0 2px;
-}
-
 .header__tagline {
   font-family: var(--font-handwritten);
   font-size: 1.2rem;

@@ -14,6 +14,10 @@ The format is based on [Keep a Changelog] (https://keepachangelog.com/en/1.1.0),
 
 - Replace double hyphens in passages with em-dashes
 
+### Removed
+
+- Remove ampersand styling on content page logo
+
 ## [1.1.0] - 2026-05-08
 
 ### Changed
