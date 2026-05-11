@@ -113,12 +113,7 @@ html {
 body {
   font-family: var(--font-sans);
   color: var(--ink);
-  background-color: var(--cream);
-  background-image: url('../assets/images/content-page-background-desktop.png');
-  background-size: cover;
-  background-position: center top;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+  background-color: #ffffff;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   line-height: 1.5;
@@ -139,9 +134,3 @@ ul {
   list-style: none;
 }
 
-  @media (max-width: 680px) {                                      
-    body {                                                  
-      background-image:
-  url('../assets/images/content-page-background-mobile.png');
-    }
-  }
