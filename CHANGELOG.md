@@ -20,6 +20,7 @@ The format is based on [Keep a Changelog] (https://keepachangelog.com/en/1.1.0),
 
 - Change content page logo font-size  from 3rem to 4rem
 - Change color and size of tagline text on content page
+- Update README to reflect current styling
 
 ### Removed
 

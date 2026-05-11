@@ -13,7 +13,14 @@ gin-and-phonics/
 │   ├── assets/
 │   │   └── images/             # Bundled images (Vite fingerprints these)
 │   │       ├── content-page-background-desktop.png
-│   │       └── content-page-background-mobile.png
+│   │       ├── content-page-background-mobile.png
+│   │       ├── landing-page-cocktail.jpg
+│   │       ├── lp-bookstore-composite-m.png
+│   │       ├── lp-bookstore-composite.png
+│   │       ├── lp-bookstore.JPG
+│   │       ├── lp-ex-libris.png
+│   │       ├── lp-polaroid.png
+│   │       └── red-arrow-icon.png
 │   ├── components/             # Presentation layer
 │   │   ├── Citation.jsx        # Source attribution for passages
 │   │   ├── ContentSection.jsx  # Two-column passage + recipe layout
@@ -83,15 +90,17 @@ Or drag-and-drop the `dist/` folder at [app.netlify.com/drop](https://app.netlif
 
 ## Typography
 
-Fonts are declared via `@font-face` in `src/styles/global.css`, loading from the Fontsource CDN:
+Fonts are declared via `@font-face` in `src/styles/global.css`:
 
-- **Instrument Serif** — passages, titles, decorative headings
-- **DM Sans** — UI elements, tags, labels
-- **Meddon** — decorative ampersands and accents
+- **EB Garamond** — passages, titles, decorative headings (Fontsource CDN)
+- **JetBrains Mono** — UI elements, tags, labels (Fontsource CDN)
+- **biroscript-regularus** — decorative handwritten accents (local `/fonts/`)
 
 ## Design
 
-- Background: cream (`#FAF6F0`)
-- Ink / font color: `#1A1A18`
+- Background: white (`#ffffff`)
+- Ink / font color: `#000000`
 - Accent: vermillion (`#C8402D`)
+- Secondary accent: mustard (`#D4982A`)
+- Handwritten accent: pen-red (`#DB0424`)
 - Responsive: single-column below 680px
