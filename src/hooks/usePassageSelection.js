@@ -8,6 +8,7 @@ export default function usePassageSelection() {
   const [isRevealed, setIsRevealed] = useState(false);
   const [history, setHistory] = useState([]);
   const [historyIndex, setHistoryIndex] = useState(-1);
+  const [barrelKicked, setBarrelKicked] = useState(false);
 
   const selectTag = useCallback((tag) => {
     setIsRevealed(false);
@@ -18,6 +19,7 @@ export default function usePassageSelection() {
       setRecipe(getRecipeForTag(tag));
       setHistory([nextPassage]);
       setHistoryIndex(0);
+      setBarrelKicked(false);
       setIsRevealed(true);
     }, 150);
   }, []);
@@ -26,6 +28,12 @@ export default function usePassageSelection() {
     if (!selectedTag) return;
     setIsRevealed(false);
     setTimeout(() => {
+      const total = getPassagesByTag(selectedTag).length;
+      if (historyIndex + 1 >= total) {
+        setBarrelKicked(true);
+        setIsRevealed(true);
+        return;
+      }
       const seen = new Set(history.slice(0, historyIndex + 1));
       const nextPassage = getRandomPassage(selectedTag, seen);
       const newHistory = [...history.slice(0, historyIndex + 1), nextPassage];
@@ -42,6 +50,7 @@ export default function usePassageSelection() {
       const newIndex = historyIndex - 1;
       setHistoryIndex(newIndex);
       setPassage(history[newIndex]);
+      setBarrelKicked(false);
       setIsRevealed(true);
     }, 150);
   }, [history, historyIndex]);
@@ -54,13 +63,13 @@ export default function usePassageSelection() {
       setPassage(nextPassage);
       setHistory([nextPassage]);
       setHistoryIndex(0);
+      setBarrelKicked(false);
       setIsRevealed(true);
     }, 150);
   }, [selectedTag]);
 
   const totalForTag = selectedTag ? getPassagesByTag(selectedTag).length : 0;
-  const isExhausted = totalForTag > 1 && historyIndex + 1 >= totalForTag;
-  const canShuffle = totalForTag > 1 && !isExhausted;
+  const canShuffle = totalForTag > 1 && !barrelKicked;
   const canGoBack = historyIndex > 0;
 
   return {
@@ -69,7 +78,7 @@ export default function usePassageSelection() {
     recipe,
     isRevealed,
     canShuffle,
-    isExhausted,
+    isExhausted: barrelKicked,
     canGoBack,
     selectTag,
     shuffle,

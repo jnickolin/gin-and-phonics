@@ -8,7 +8,6 @@ The format is based on [Keep a Changelog] (https://keepachangelog.com/en/1.1.0),
 
 - Update background color of recipe card
 - Darken recipe card text for improved legibility
-- Fix bug where category shows empty when it still has one passage left
 
 ## [1.1.2] - 2026-05-11
 
@@ -21,6 +20,7 @@ The format is based on [Keep a Changelog] (https://keepachangelog.com/en/1.1.0),
 - Change content page logo font-size  from 3rem to 4rem
 - Change color and size of tagline text on content page
 - Update README to reflect current styling
+- Fix "barrel is kicked" message appearing one passage too early
 
 ### Removed
 
