@@ -732,6 +732,15 @@ const passages = [
     publishedIn: "",
     link: "",
   },
+    {
+      tag: "strength",
+      title: "Unknown",
+      content: `These are not easy times to be alive but these are amazing times to be of service.`,
+      author: "Maha Rose",
+      pieceTitle: "",
+      publishedIn: "",
+      link: "https://www.instagram.com/p/DOi5yNFDThP/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
+    }
 ];
 
 export default passages;

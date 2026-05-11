@@ -12,6 +12,10 @@ The format is based on [Keep a Changelog] (https://keepachangelog.com/en/1.1.0),
 
 ## [1.1.2] - 2026-05-11
 
+## Added
+
+- Add service passage to strength category
+
 ### Changed
 
 - Change content page logo font-size  from 3rem to 4rem
