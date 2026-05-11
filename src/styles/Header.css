@@ -7,7 +7,7 @@
 
 .header__logo {
   font-family: var(--font-serif);
-  font-size: 3rem;
+  font-size: 4rem;
   color: var(--ink);
   background: none;
   border: none;
@@ -17,9 +17,20 @@
 
 .header__tagline {
   font-family: var(--font-handwritten);
-  font-size: 1.2rem;
-  color: var(--ink-40);
+  font-size: 2rem;
+  color: var(--pen-red);
   text-align: right;
-  max-width: 250px;
-  line-height: 2;
+  max-width: 260px;
+  line-height: 1.4;
+}
+
+@media (max-width: 680px) {
+  .header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .header__tagline {
+    text-align: left;
+  }
 }

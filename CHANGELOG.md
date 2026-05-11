@@ -6,7 +6,20 @@ The format is based on [Keep a Changelog] (https://keepachangelog.com/en/1.1.0),
 
 ## [Unreleased]
 
+- Remove background image on content page
+- Update background color of recipe card
+- Darken recipe card text for improved legibility
 - Fix bug where category shows empty when it still has one passage left
+
+## [1.1.2] - 2026-05-11
+
+### Changed
+
+- Change content page logo font-size  from 3rem to 4rem
+- Change color and size of tagline text on content page
+
+### Removed
+
 
 ## [1.1.1] - 2026-05-09
 
