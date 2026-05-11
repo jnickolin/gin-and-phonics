@@ -1,8 +1,7 @@
 import '../styles/LandingPage.css';
-import cocktailImage from '../assets/images/landing-page-cocktail.jpg'; 
 import exLibrisImage from '../assets/images/lp-ex-libris.png';
-import bookstoreImage from '../assets/images/lp-bookstore-composite.png';
-import bookstoreImageMobile from '../assets/images/lp-bookstore-composite-m.png';
+import bookstoreImage from '../assets/images/lp-bookstore.JPG';
+import bookstoreImageMobile from '../assets/images/lp-bookstore-m.JPG';
 import arrowIcon from '../assets/images/red-arrow-icon.png';
 
 export default function LandingPage({ onEnter }) {

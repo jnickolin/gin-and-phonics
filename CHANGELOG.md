@@ -11,7 +11,15 @@ The format is based on [Keep a Changelog] (https://keepachangelog.com/en/1.1.0),
 
 ## [1.1.3] - 2026-05-11
 
-## Removed
+### Added
+
+- Upload new mobile image for landing page
+
+### Changed
+
+- Update landing page images to allow for responsive cropping
+
+### Removed
 
 - Remove unused images from source folder
 
