@@ -9,9 +9,15 @@ The format is based on [Keep a Changelog] (https://keepachangelog.com/en/1.1.0),
 - Update background color of recipe card
 - Darken recipe card text for improved legibility
 
+## [1.1.3] - 2026-05-11
+
+## Removed
+
+- Remove unused images from source folder
+
 ## [1.1.2] - 2026-05-11
 
-## Added
+### Added
 
 - Add service passage to strength category
 - Add border to landing page image
