@@ -18,7 +18,7 @@ The format is based on [Keep a Changelog] (https://keepachangelog.com/en/1.1.0),
 
 ### Changed
 
-- Change content page logo font-size  from 3rem to 4rem
+- Change content page logo font-size from 3rem to 4rem
 - Change color and size of tagline text on content page
 - Update README to reflect current styling
 - Fix "barrel is kicked" message appearing one passage too early
