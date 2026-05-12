@@ -20,7 +20,16 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-Please note the above license only covers the code within this directory and does 
-not apply to the quoted passages or recipes, which are owned by their individual 
-authors. Attribution is visibly included for all quoted works and should be maintained
-in any future copies.
+Third-Party Content Notice
+
+The MIT License above applies solely to the original source code of this Software.
+It does not extend to the literary passages, recipes, or other third-party content
+included herein. Such content remains the intellectual property of its respective
+authors and rights holders, and is reproduced here for non-commercial, educational,
+and personal use only. No ownership or license over third-party content is claimed
+or granted by this project.
+
+Any reproduction, redistribution, or derivative use of third-party content must
+include complete attribution to the original author and source, as provided within
+the application. Commercial use of any third-party content without explicit
+permission from the respective rights holder is strictly prohibited.

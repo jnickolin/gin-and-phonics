@@ -15,6 +15,10 @@ The format is based on [Keep a Changelog] (https://keepachangelog.com/en/1.1.0),
 
 - Add LICENSE.txt
 
+### Changed
+
+- Update 3rd party content notice in LICENSE.txt
+
 ## [1.1.3] - 2026-05-11
 
 ### Added
