@@ -1,6 +1,6 @@
 # Gin & Phonics
 
-Select a subject — purpose, courage, grief — and receive a poem or excerpt paired with a cocktail or non-alcoholic beverage.
+Jukebox for short fiction and drink recipes. Select a subject and receive a poem or excerpt paired with a cocktail or non-alcoholic beverage.
 
 ## Project Structure
 
