@@ -20,6 +20,8 @@ const passages = [
     pieceTitle: "The Central Commitment of the Creative Life",
     publishedIn: "Upstream: Selected Essays",
     link: "https://www.strandbooks.com/upstream-selected-essays-9780143130086.html",
+    note: "Yiiiiikes! Get out there!",
+    noteDate: "Tuesday, May 12, 2026",
   },
   {
     tag: "learning",
@@ -94,22 +96,15 @@ const passages = [
     link: "https://www.mcnallyjackson.com/book/9780063442139",
   },
   {
-    tag: "connection",
+    tag: "alienation",
     title: "",
     content: `A murder of crows.\nA company of parrots.\nAn ambush of tigers.\nA congregation of alligators.\nA cloud of bats.\nA convocation of eagles.\nA business of ferrets.\nAn army of frogs.\nA stand of flamingoes.\nAn array of hedgehogs.\nA siege of herons.\nA leap of leopards.\nA parliament of owls.\nAn ostentation of peacocks.\nA cackle of hyenas.\nA pounce of cats.\nA bed of eels.\nA pantheon of gods.\nA loneliness of humans.`,
     author: "",
     pieceTitle: "",
     publishedIn: "",
     link: "https://pin.it/4NRsAm2dy",
-  },
-  {
-    tag: "connection",
-    title: "Sonnet",
-    content: `I dont think that I've been in love as such,\nAlthough I liked a few folk pretty well.\nLove must be vaster than my smiles or touch,\nFor brave men died and empires rose and fell\nFor love: girls followed boys to foreign lands\nAnd men have followed women into Hell.\n\nIn plays and poems someone understands\nThere's something makes us more than blood and bone\nAnd more than biological demands...\nFor me, love's like the wind, unseen, unknown.\nI see the trees are bending where it's been,\nI know that it leaves wreckage where it's blown.\nI really don't know what "I love you" means.\nI think it means "Don't leave me here alone."`,
-    author: "Neil Gaiman",
-    pieceTitle: "Dark Sonnet",
-    publishedIn: "Adventures in the Dream Trade",
-    link: "https://www.nesfa.org/book/adventures-in-the-dream-trade-5/",
+    note: "Is this real? I recognize some of them. A congregation feels a little formal for alligators. A loneliness of humans is rude. I had this in connection but I had to move it.",
+    noteDate: "Tuesday, May 12, 2026",
   },
   {
     tag: "strength",
@@ -308,6 +303,8 @@ const passages = [
     pieceTitle: 'Season 11, Episode 22, "She\'s Leaving Home"',
     publishedIn: "Grey's Anatomy",
     link: "",
+    note: "I don't know if I've seen a whole episode of Grey's Anatomy, but everything ends up on Pinterest. 'Can you be stronger? Kinder?' The strongest, kindest people I have met have always been through the most. I need this reminder to practice.",
+
   },
   {
     tag: "connection",
@@ -488,6 +485,8 @@ const passages = [
     pieceTitle: "Maggie and Milly and Molly and May",
     publishedIn: "95 Poems",
     link: "https://www.strandbooks.com/95-poems-9780871401816.html",
+    note: "This is a weird poem. I think I selected it because I had a roommate named Maggie, and my sister's name is Molly. It was hard to categorize. I do not like the line, 'Molly was chased by a horrible thing,' but this can easily sum up a day at the beach for a group of kids. Growing up, I spent a lot of days like this with my cousins, and sometimes we were the horrible things chasing one another. And rocks were always important to someone.",
+    noteDate: "Monday, May 11, 2026",
   },
   {
     tag: "alienation",
@@ -544,6 +543,8 @@ const passages = [
     pieceTitle: "Lodged",
     publishedIn: "West-Running Brook",
     link: "https://www.barnesandnoble.com/w/west-running-brook-robert-frost/1015682942?ean=9798869092779",
+    note: "I have a have a friend from high school, who used to say 'That's ok, I'll come to your pity party.' I would complain briefly, then apologize, and he would say that, and listen to me some more. A good friend will come to your pity party, at least for a little bit. They don't always have to fix the thing, or tell you to snap out of it. I think this poem is a brief pity party, which, sometimes is all you need.",
+    noteDate: "Tuesday, May 5, 2026",
   },
   {
     tag: "courage",
@@ -562,6 +563,8 @@ const passages = [
     pieceTitle: "Rainy Weather",
     publishedIn: "",
     link: "https://hesse.projects.gss.ucsb.edu/works/trees.html",
+    note: "Of course you can be an artist and an upstanding person! Let's forget that and the patriarchal implications of 'upstanding man' for a moment. I included this for 'everything is within you, gold and mud.' How human.",
+    noteDate: "Tuesday, May 12, 2026",
   },
   {
     tag: "action",
@@ -571,6 +574,8 @@ const passages = [
     pieceTitle: "Just For You",
     publishedIn: "",
     link: "",
+    note: "Raise your hand if you've been personally victimized by Regina George. Unfortunately, it hurts because it's true.",
+    noteDate: "Friday, May 8, 2026",
   },
   {
     tag: "wonder",
@@ -634,6 +639,8 @@ const passages = [
     pieceTitle: "The Meaning of Human Requirements",
     publishedIn: "Economic and Philosophic Manuscripts of 1844",
     link: "https://www.marxists.org/archive/marx/works/1844/manuscripts/needs.htm",
+    note: "This is a pretty good argument for thorough consideration of what we hand over to AI. There are defintely great uses for it. I would love for my car registration to never come across my desk again. And I have had huge help from Claude building this app. But, as I write this, VSCode is trying to suggest my next words. A plague on your house, VSCode! As if the whole point is not me responding to another human's experience. Eventually I'll wire up a database so this isn't managed in a JSON file. But back to what I was saying, our brains, like the rest of our bodies, are a 'use it or lose it' bargain. The less we read, think, dance, make art, the less capable we become of walking down our own avenues of connection. We could save money and time cutting all that out. But what ever for?",
+    noteDate: "Monday, May 11, 2026",
   },
   {
     tag: "wonder",
@@ -688,6 +695,8 @@ const passages = [
     pieceTitle: "",
     publishedIn: "The Unabridged Journals of Sylvia Plath",
     link: "https://www.strandbooks.com/the-unabridged-journals-of-sylvia-plath-9780385720250.html",
+    note: "Ugh, I am so horribly limited. If you're feeling frozen like this, go over to Action. Read a couple of those, then pick one thing on your list, and DO IT.",
+    noteDate: "Friday, May 8, 2026",
   },
   {
     tag: "presence",
