@@ -6,21 +6,22 @@ The format is based on [Keep a Changelog] (https://keepachangelog.com/en/1.1.0),
 
 ## [Unreleased]
 
-- Update background color of recipe card
-- Darken recipe card text for improved legibility
-- Add editor's note section
-
-## [1.2.0] - 2026-05-12
+## [1.1.5] - 2026-05-12
 
 ### Changed
 
 - Update project description in README.md
+
+### Removed
+
+- Remove quotation marks surrounding editor's note text
 
 ## [1.1.4] - 2026-05-12
 
 ### Added
 
 - Add LICENSE.txt
+- Add editor's note section to passages and recipes
 
 ### Changed
 

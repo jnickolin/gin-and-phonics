@@ -1,0 +1,45 @@
+.editor-note {
+  border-top: 1px solid var(--ink-08);
+  padding-top: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.editor-note__label {
+  font-family: var(--font-sans);
+  font-size: 1.2rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  color: var(--ink-40);
+}
+
+.editor-note__body {
+  font-family: var(--font-handwritten);
+  font-size: 2rem;
+  line-height: 1.5;
+  color: var(--dark-green);
+  margin: 0;
+}
+
+.editor-note__empty {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border: 1px dashed var(--ink-15);
+  padding: 12px 16px;
+  font-family: var(--font-sans);
+  font-size: 1.32rem;
+  color: var(--ink-40);
+  font-style: italic;
+}
+
+.editor-note__dot {
+  display: inline-block;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: var(--ink-15);
+  flex-shrink: 0;
+}

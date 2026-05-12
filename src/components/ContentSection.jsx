@@ -1,5 +1,6 @@
 import PassageDisplay from './PassageDisplay';
 import RecipeCard from './RecipeCard';
+import EditorNote from './EditorNote';
 import '../styles/ContentSection.css';
 
 export default function ContentSection({
@@ -52,17 +53,26 @@ export default function ContentSection({
       </div>
 
       <div className="content-section__grid">
-        {isExhausted ? (
-          <div className="content-section__barrel-kicked">
-            <p className="content-section__barrel-kicked-heading">The barrel is kicked.</p>
-            <p className="content-section__barrel-kicked-body">
-              You&rsquo;ve read every passage for this theme. Pour another round to go again.
-            </p>
-          </div>
-        ) : (
-          <PassageDisplay passage={passage} />
-        )}
-        <RecipeCard recipe={recipe} />
+        <div className="content-section__col">
+          {isExhausted ? (
+            <div className="content-section__barrel-kicked">
+              <p className="content-section__barrel-kicked-heading">The barrel is kicked.</p>
+              <p className="content-section__barrel-kicked-body">
+                You&rsquo;ve read every passage for this theme. Pour another round to go again.
+              </p>
+            </div>
+          ) : (
+            <PassageDisplay passage={passage} />
+          )}
+          {!isExhausted && (
+            <EditorNote label="From the editor" body={passage.note} />
+          )}
+        </div>
+
+        <div className="content-section__col">
+          <RecipeCard recipe={recipe} />
+          <EditorNote label="Bartender's note" body={recipe?.note} />
+        </div>
       </div>
     </section>
   );

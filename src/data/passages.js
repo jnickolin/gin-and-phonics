@@ -123,7 +123,7 @@ const passages = [
   {
     tag: "action",
     title: "Work, Sometimes",
-    content: `I was sad all day, and why not. there I was, books piled on both sides of the table, paper stacked up, words falling off my tongue.\n\nThe robins had been a long time singing, and now it was beginning to rain.\n\nWhat are we sure of? Happiness isn't a town on a map, or an early arrival, or a job well done, but good work ongoing. which is not likely to be the trifling around with a poem.\n\nThen it began raining hard, and the flowers in the yard were full of lively fragrance.\n\nYou have had days like this, no doubt. And wasn't it wonderful, finally, to leave the room? Ah, what a moment!\n\nAs for myself, I swung the door open. And there was the wordless, singing world. And I ran for my life.`,
+    content: `I was sad all day, and why not. There I was, books piled on both sides of the table, paper stacked up, words falling off my tongue.\n\nThe robins had been a long time singing, and now it was beginning to rain.\n\nWhat are we sure of? Happiness isn't a town on a map, or an early arrival, or a job well done, but good work ongoing. which is not likely to be the trifling around with a poem.\n\nThen it began raining hard, and the flowers in the yard were full of lively fragrance.\n\nYou have had days like this, no doubt. And wasn't it wonderful, finally, to leave the room? Ah, what a moment!\n\nAs for myself, I swung the door open. And there was the wordless, singing world. And I ran for my life.`,
     author: "Mary Oliver",
     pieceTitle: "Work, Sometimes",
     publishedIn: "Red Bird",
@@ -497,6 +497,7 @@ const passages = [
     pieceTitle: "Solitude",
     publishedIn: "Poems of Passion",
     link: "https://www.mcnallyjackson.com/book/9798897732647",
+    note: "This isn't a worldview I genearlly subscribe to, but when I'm feeling poorly, positivity can be suffocating. The great thing about being human is that someone else has been there, and it's ok to sit in the bad for a while. Even if no one's in the 'narrow aisles of pain' with you right now, everyone has been.",
   },
   {
     tag: "strength",

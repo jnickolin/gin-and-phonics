@@ -96,23 +96,3 @@
   padding-top: 10px;
   margin-top: 6px;
 }
-
-.recipe__note {
-  border-top: 1px solid var(--ink-08);
-  padding-top: 14px;
-  margin-top: 6px;
-}
-
-.recipe__note-label {
-  font-family: var(--font-handwritten);
-  font-size: 1.68rem;
-  color: var(--vermillion);
-  margin-bottom: 6px;
-}
-
-.recipe__note-text {
-  font-family: var(--font-handwritten);
-  font-size: 1.56rem;
-  line-height: 2;
-  color: var(--ink-40);
-}
