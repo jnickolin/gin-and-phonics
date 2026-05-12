@@ -9,6 +9,12 @@ The format is based on [Keep a Changelog] (https://keepachangelog.com/en/1.1.0),
 - Update background color of recipe card
 - Darken recipe card text for improved legibility
 
+## [1.1.4] - 2026-05-12
+
+### Added
+
+- Add LICENSE.txt
+
 ## [1.1.3] - 2026-05-11
 
 ### Added
