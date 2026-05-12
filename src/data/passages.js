@@ -498,6 +498,7 @@ const passages = [
     publishedIn: "Poems of Passion",
     link: "https://www.mcnallyjackson.com/book/9798897732647",
     note: "This isn't a worldview I genearlly subscribe to, but when I'm feeling poorly, positivity can be suffocating. The great thing about being human is that someone else has been there, and it's ok to sit in the bad for a while. Even if no one's in the 'narrow aisles of pain' with you right now, everyone has been.",
+    noteDate: "Tuesday, May 12, 2026",
   },
   {
     tag: "strength",

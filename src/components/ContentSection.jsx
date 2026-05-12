@@ -65,7 +65,7 @@ export default function ContentSection({
             <PassageDisplay passage={passage} />
           )}
           {!isExhausted && (
-            <EditorNote label="From the editor" body={passage.note} />
+            <EditorNote label="From the editor" body={passage.note} date={passage.noteDate} />
           )}
         </div>
 

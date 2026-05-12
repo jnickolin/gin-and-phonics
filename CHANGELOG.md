@@ -6,7 +6,11 @@ The format is based on [Keep a Changelog] (https://keepachangelog.com/en/1.1.0),
 
 ## [Unreleased]
 
-## [1.1.5] - 2026-05-12
+## [1.2.0] - 2026-05-12
+
+### Added
+
+- Add noteDate property to passages object to support dated editor's note entries
 
 ### Changed
 

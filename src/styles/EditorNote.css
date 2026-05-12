@@ -15,12 +15,26 @@
   color: var(--ink-40);
 }
 
+.editor-note__content {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 20px;
+}
+
 .editor-note__body {
   font-family: var(--font-handwritten);
-  font-size: 2rem;
+  font-size: 2.5rem;
   line-height: 1.5;
   color: var(--dark-green);
   margin: 0;
+}
+
+.editor-note__date {
+  font-family: var(--font-handwritten);
+  font-size: 2.5rem;
+  color: var(--dark-green);
+  opacity: 0.6;
 }
 
 .editor-note__empty {
