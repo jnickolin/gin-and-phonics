@@ -240,6 +240,8 @@ const passages = [
     pieceTitle: "The Diary of Virginia Woolf",
     publishedIn: "The Diary of Virginia Woolf",
     link: "https://www.mcnallyjackson.com/search/site/the%20diary%20of%20virginia%20woolf",
+    note: "There seem to be so many poems about October. Maybe I just think that because my birthday is in October, so I only notice the October poems, but that's why there's an October category. It's my favorite time of year, and people like to write about it.",
+    noteDate: "Wednesday, May 6, 2026",
   },
   {
     tag: "action",
@@ -574,7 +576,7 @@ const passages = [
     pieceTitle: "Just For You",
     publishedIn: "",
     link: "",
-    note: "Raise your hand if you've been personally victimized by Regina George. Unfortunately, it hurts because it's true.",
+    note: "This one hurts because it's true.",
     noteDate: "Friday, May 8, 2026",
   },
   {
@@ -639,7 +641,7 @@ const passages = [
     pieceTitle: "The Meaning of Human Requirements",
     publishedIn: "Economic and Philosophic Manuscripts of 1844",
     link: "https://www.marxists.org/archive/marx/works/1844/manuscripts/needs.htm",
-    note: "This is a pretty good argument for thorough consideration of what we hand over to AI. There are defintely great uses for it. I would love for my car registration to never come across my desk again. And I have had huge help from Claude building this app. But, as I write this, VSCode is trying to suggest my next words. A plague on your house, VSCode! As if the whole point is not me responding to another human's experience. Eventually I'll wire up a database so this isn't managed in a JSON file. But back to what I was saying, our brains, like the rest of our bodies, are a 'use it or lose it' bargain. The less we read, think, dance, make art, the less capable we become of walking down our own avenues of connection. We could save money and time cutting all that out. But what ever for?",
+    note: "This is a pretty good argument for thoughtful consideration of what we hand over to AI. There are some great uses for it. I would love for my car registration to never come across my desk again, and I have had huge help from Claude building this app. But, as I write this, VSCode is trying to suggest my next words. A plague on your house, VSCode! As if the whole point is not me responding to another human's thoughts. Eventually, I'll wire up a database so this isn't managed in a JSON file. But—back to what I was saying—our brains, like most things, are a 'use it or lose it' bargain. The less we read, think, dance, make art, the less capable we become of walking down our own avenues of connection. We could save money and time cutting all that out. But what ever for?",
     noteDate: "Monday, May 11, 2026",
   },
   {
@@ -706,6 +708,8 @@ const passages = [
     pieceTitle: "",
     publishedIn: "Poetry",
     link: "https://www.poetryfoundation.org/poetrymagazine/poems/37994/we-have-not-long-to-love",
+    note: "This always makes me want to hug my mom.",
+    noteDate: "Wednesday, May 13, 2026",
   },
   {
     tag: "presence",
