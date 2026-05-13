@@ -103,7 +103,7 @@ const passages = [
     pieceTitle: "",
     publishedIn: "",
     link: "https://pin.it/4NRsAm2dy",
-    note: "Is this real? I recognize some of them. A congregation feels a little formal for alligators. A loneliness of humans is rude. I had this in connection but I had to move it.",
+    note: "Is this real? I recognize some of them. A congregation feels a little formal for alligators. A loneliness of humans is rude. I had this under connection but I had to move it.",
     noteDate: "Tuesday, May 12, 2026",
   },
   {
@@ -498,7 +498,7 @@ const passages = [
     pieceTitle: "Solitude",
     publishedIn: "Poems of Passion",
     link: "https://www.mcnallyjackson.com/book/9798897732647",
-    note: "This isn't a worldview I genearlly subscribe to, but when I'm feeling poorly, positivity can be suffocating. The great thing about being human is that someone else has been there, and it's ok to sit in the bad for a while. Even if no one's in the 'narrow aisles of pain' with you right now, everyone has been.",
+    note: "This isn't a worldview I generally subscribe to, but when I'm feeling poorly, positivity can be suffocating. The great thing about being human is that someone else has been there, and it's ok to sit in the bad for a while. Even if no one's in the 'narrow aisles of pain' with you right now, everyone has been.",
     noteDate: "Tuesday, May 12, 2026",
   },
   {
@@ -545,7 +545,7 @@ const passages = [
     pieceTitle: "Lodged",
     publishedIn: "West-Running Brook",
     link: "https://www.barnesandnoble.com/w/west-running-brook-robert-frost/1015682942?ean=9798869092779",
-    note: "I have a have a friend from high school, who used to say 'That's ok, I'll come to your pity party.' I would complain briefly, then apologize, and he would say that, and listen to me some more. A good friend will come to your pity party, at least for a little bit. They don't always have to fix the thing, or tell you to snap out of it. I think this poem is a brief pity party, which, sometimes is all you need.",
+    note: "I have a have a friend from high school, who used to say 'That's ok, I'll come to your pity party.' I would complain briefly, then apologize, and he would say that, and listen to me some more. A good friend will come to your pity party, at least for a little while. They don't always have to fix the thing, or tell you to snap out of it. I think this poem is a brief pity party, which is—sometimes—all you need.",
     noteDate: "Tuesday, May 5, 2026",
   },
   {
