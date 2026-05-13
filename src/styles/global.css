@@ -67,19 +67,14 @@
 /* ─── CUSTOM PROPERTIES ──────────────────────────────────────────────────── */
 :root {
   /* Colour */
-  --white: #FFFFFF;
-  --cream: #FAF6F0;
+  --cream: #FEFAE6;
   --ink: #000000;
-  --vermillion: #C8402D;
-  --mustard-bright: #E8AE2E;
-  --mustard: #D4982A;
-  --bic-blue: #0004A6;
-  --pen-red: #DB0424;
+  --pen-brown: #6f1a07;
+  --card-blue: #5080B4;
   --ink-40: rgba(26, 26, 24, 0.4);
   --ink-15: rgba(26, 26, 24, 0.15);
   --ink-08: rgba(26, 26, 24, 0.08);
   --ink-04: rgba(26, 26, 24, 0.04);
-  --dark-green: #1a4a2e;
 
   /* Typography */
   --font-serif: 'EB Garamond', Georgia, serif;
@@ -87,12 +82,10 @@
   --font-handwritten: 'biroscript-regularus', cursive;
 
   /* Spacing */
-  --space-xs: 4px;
   --space-sm: 8px;
   --space-md: 16px;
   --space-lg: 24px;
   --space-xl: 40px;
-  --space-2xl: 64px;
 
   /* Layout */
   --max-width: 960px;
@@ -114,7 +107,7 @@ html {
 body {
   font-family: var(--font-sans);
   color: var(--ink);
-  background-color: #ffffff;
+  background-color: var(--cream);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   line-height: 1.5;

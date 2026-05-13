@@ -9,11 +9,12 @@
   text-transform: uppercase;
   letter-spacing: 0.15em;
   margin-bottom: 10px;
-  color: var(--ink-40);
+  color: var(--card-blue);
 }
 
 .passage__title {
   font-family: var(--font-serif);
+  color: var(--ink);
   font-size: 2.64rem;
   font-weight: 600;
   margin: 0 0 10px;

@@ -14,7 +14,7 @@
 /* ─── EMPTY STATE ────────────────────────────────────────────────────────── */
 .empty-state {
   text-align: center;
-  padding: 30vh 20px;
+  padding: 28vh 20px;
 }
 
 @media (max-width: 680px) {
@@ -24,23 +24,23 @@
 }
 
 .empty-state__icon {
-  font-size: 2.4rem;
-  color: var(--ink-40);
+  font-size: 3.0rem;
+  color: var(--card-blue);
   margin-bottom: var(--space-md);
 }
 
 .empty-state__text {
   font-family: var(--font-serif);
   font-style: italic;
-  font-size: 1.8rem;
-  color: var(--ink-40);
+  font-size: 2.4rem;
+  color: var(--card-blue);
   line-height: 1.7;
 }
 
 /* ─── FOOTER ─────────────────────────────────────────────────────────────── */
 .footer {
   text-align: center;
-  border-top: 1px solid var(--ink-08);
+  border-top: 1px solid var(--card-blue);
   padding: 16px 0;
   margin-top: var(--space-lg);
 }
@@ -48,6 +48,6 @@
 .footer__text {
   font-family: var(--font-sans);
   font-size: 1.2rem;
-  color: var(--ink-40);
+  color: var(--card-blue);
   letter-spacing: 0.04em;
 }

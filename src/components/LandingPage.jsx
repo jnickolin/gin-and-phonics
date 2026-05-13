@@ -2,7 +2,7 @@ import '../styles/LandingPage.css';
 import exLibrisImage from '../assets/images/lp-ex-libris.png';
 import bookstoreImage from '../assets/images/lp-bookstore.JPG';
 import bookstoreImageMobile from '../assets/images/lp-bookstore-m.JPG';
-import arrowIcon from '../assets/images/red-arrow-icon.png';
+import arrowIcon from '../assets/images/brown-arrow-icon.png';
 
 export default function LandingPage({ onEnter }) {
   return (

@@ -1,5 +1,5 @@
 .editor-note {
-  border-top: 1px solid var(--ink-08);
+  border-top: 1px solid var(--card-blue);
   padding-top: 16px;
   display: flex;
   flex-direction: column;
@@ -12,7 +12,7 @@
   font-weight: 500;
   text-transform: uppercase;
   letter-spacing: 0.15em;
-  color: var(--ink-40);
+  color: var(--card-blue);
 }
 
 .editor-note__content {
@@ -26,14 +26,14 @@
   font-family: var(--font-handwritten);
   font-size: 2.5rem;
   line-height: 1.5;
-  color: var(--dark-green);
+  color: var(--pen-brown);
   margin: 0;
 }
 
 .editor-note__date {
   font-family: var(--font-handwritten);
   font-size: 2.5rem;
-  color: var(--dark-green);
+  color: var(--pen-brown);
   opacity: 0.6;
 }
 
@@ -41,11 +41,11 @@
   display: flex;
   align-items: center;
   gap: 10px;
-  border: 1px dashed var(--ink-15);
+  border: 1px dashed var(--card-blue);
   padding: 12px 16px;
   font-family: var(--font-sans);
   font-size: 1.32rem;
-  color: var(--ink-40);
+  color: var(--card-blue);
   font-style: italic;
 }
 
@@ -54,6 +54,6 @@
   width: 5px;
   height: 5px;
   border-radius: 50%;
-  background: var(--ink-15);
+  background: var(--card-blue);
   flex-shrink: 0;
 }

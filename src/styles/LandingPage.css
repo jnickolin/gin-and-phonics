@@ -7,7 +7,7 @@
   justify-content: space-between;
   padding: 40px 40px;
   overflow: hidden;
-  background-color: var(--white);
+  background-color: var(--card-blue);
 }
 
 .landing__header {
@@ -19,6 +19,7 @@
 
 .landing__est {
   font-size: 1.5rem;
+  color: var(--cream);
   margin-bottom: 12px;
 }
 
@@ -27,7 +28,7 @@
   font-size: clamp(4rem, 6vw, 10rem);
   font-weight: 400;
   line-height: 0.90;
-  color: var(--ink);
+  color: var(--cream);
   position: relative;
   z-index: 1;
   max-width: 400px;
@@ -36,6 +37,7 @@
 
 .landing__p {
   font-size: 1.5rem;
+  color: var(--cream);
   margin-bottom: 20px;
   max-width: 300px;
 }
@@ -59,7 +61,7 @@
   font-family: var(--font-handwritten);
   font-size: 3.5rem;
   text-align: left;
-  color: var(--pen-red);
+  color: var(--pen-brown);
   opacity: 0.95;
   margin-bottom: 50px;
   line-height: 1;
@@ -73,7 +75,7 @@
   font-family: var(--font-handwritten);
   font-size: 3.45rem;
   text-align: left;
-  color: var(--pen-red);
+  color: var(--pen-brown);
   opacity: 0.95;
   line-height: 1;
   position: relative;

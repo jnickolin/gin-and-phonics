@@ -8,22 +8,21 @@ Jukebox for short fiction and drink recipes. Select a subject and receive a poem
 gin-and-phonics/
 ├── public/                     # Static assets
 │   ├── favicon.svg
-│   └── transparent-logo.png
+│   ├── transparent-logo.png
+│   └── fonts/                  # Self-hosted fonts
+│       ├── biroscript-regularus-webfont.woff
+│       └── biroscript-regularus-webfont.woff2
 ├── src/
 │   ├── assets/
 │   │   └── images/             # Bundled images (Vite fingerprints these)
-│   │       ├── content-page-background-desktop.png
-│   │       ├── content-page-background-mobile.png
-│   │       ├── landing-page-cocktail.jpg
-│   │       ├── lp-bookstore-composite-m.png
-│   │       ├── lp-bookstore-composite.png
+│   │       ├── brown-arrow-icon.png
 │   │       ├── lp-bookstore.JPG
-│   │       ├── lp-ex-libris.png
-│   │       ├── lp-polaroid.png
-│   │       └── red-arrow-icon.png
+│   │       ├── lp-bookstore-m.JPG
+│   │       └── lp-ex-libris.png
 │   ├── components/             # Presentation layer
 │   │   ├── Citation.jsx        # Source attribution for passages
 │   │   ├── ContentSection.jsx  # Two-column passage + recipe layout
+│   │   ├── EditorNote.jsx      # Editor's annotation for a passage
 │   │   ├── EmptyState.jsx      # Initial state before selection
 │   │   ├── Footer.jsx          # Site footer
 │   │   ├── Header.jsx          # Masthead / site title
@@ -40,6 +39,7 @@ gin-and-phonics/
 │   ├── styles/                 # Per-component CSS (BEM naming, CSS custom properties)
 │   │   ├── Citation.css
 │   │   ├── ContentSection.css
+│   │   ├── EditorNote.css
 │   │   ├── global.css          # Resets, custom properties, font declarations
 │   │   ├── Header.css
 │   │   ├── LandingPage.css
@@ -98,9 +98,8 @@ Fonts are declared via `@font-face` in `src/styles/global.css`:
 
 ## Design
 
-- Background: white (`#ffffff`)
-- Ink / font color: `#000000`
-- Accent: vermillion (`#C8402D`)
-- Secondary accent: mustard (`#D4982A`)
-- Handwritten accent: pen-red (`#DB0424`)
+- Background: cream (`#FEFAE6`)
+- Text: ink (`#000000`)
+- Primary UI color: card-blue (`#5080B4`) — labels, borders, buttons
+- Handwritten accents: pen-brown (`#6f1a07`)
 - Responsive: single-column below 680px

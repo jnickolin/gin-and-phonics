@@ -12,6 +12,15 @@ The format is based on [Keep a Changelog] (https://keepachangelog.com/en/1.1.0),
 
 - Add editor's notes content to selected passages
 
+### Changed
+
+- Change site font and background colors
+- Update README.md to reflect current state
+
+### Removed
+
+- Delete unused images
+
 ## [1.2.1] - 2026-05-12
 
 ### Added

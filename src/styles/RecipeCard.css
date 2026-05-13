@@ -1,7 +1,7 @@
 .recipe {
   background: white;
   padding: 20px;
-  border: 1px solid var(--ink-08);
+  border: 1px solid var(--card-blue);
   position: relative;
   overflow: hidden;
 }
@@ -13,7 +13,7 @@
   left: 0;
   width: 4px;
   height: 100%;
-  background: var(--mustard);
+  background: var(--card-blue);
 }
 
 .recipe__label {
@@ -23,11 +23,12 @@
   text-transform: uppercase;
   letter-spacing: 0.15em;
   margin-bottom: 8px;
-  color: var(--ink-40);
+  color: var(--card-blue);
 }
 
 .recipe__name {
   font-family: var(--font-serif);
+  color: var(--ink);
   font-size: 2.4rem;
   font-weight: 400;
   margin: 0 0 6px;
@@ -45,7 +46,7 @@
 
 .recipe__divider {
   height: 1px;
-  background: var(--ink-08);
+  background: var(--card-blue);
   margin-bottom: 12px;
 }
 
@@ -56,7 +57,7 @@
   text-transform: uppercase;
   letter-spacing: 0.12em;
   margin-bottom: 5px;
-  color: var(--ink-40);
+  color: var(--card-blue);
 }
 
 .recipe__ingredients {
@@ -91,8 +92,8 @@
   font-family: var(--font-sans);
   font-size: 1.32rem;
   line-height: 1.5;
-  color: var(--ink-40);
-  border-top: 1px solid var(--ink-08);
+  color: var(--card-blue);
+  border-top: 1px solid var(--card-blue);
   padding-top: 10px;
   margin-top: 6px;
 }

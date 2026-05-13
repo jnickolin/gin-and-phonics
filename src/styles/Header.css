@@ -7,8 +7,8 @@
 
 .header__logo {
   font-family: var(--font-serif);
-  font-size: 4rem;
-  color: var(--ink);
+  font-size: 5rem;
+  color: var(--card-blue);
   background: none;
   border: none;
   padding: 0;
@@ -17,10 +17,10 @@
 
 .header__tagline {
   font-family: var(--font-handwritten);
-  font-size: 2rem;
-  color: var(--pen-red);
+  font-size: 2.5rem;
+  color: var(--pen-brown);
   text-align: right;
-  max-width: 260px;
+  max-width: 350px;
   line-height: 1.4;
 }
 
