@@ -4,7 +4,7 @@ Jukebox for short fiction and drink recipes. Select a subject and receive a poem
 
 ## Credits
 
-App structure and JavaScript logic built with Claude (Anthropic). Design, styling, content compilation, and editor's notes by Jojo Nickolin.
+Design, app styling, content compilation, and editor's notes by Jojo Nickolin. App structure and JavaScript logic built with Claude (Anthropic).
 
 ## Project Structure
 
