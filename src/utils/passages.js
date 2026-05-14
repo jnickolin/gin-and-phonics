@@ -1,5 +1,5 @@
-import passages from '../data/passages';
-import recipes from '../data/recipes';
+import passages from '../data/passages.json';
+import recipes from '../data/recipes.json';
 
 /**
  * Returns a sorted, deduplicated array of all tags present in the passages data.
