@@ -1,13 +1,13 @@
 # Gin & Phonics
 
-Jukebox for short fiction and drink recipes. Select a subject and receive a poem or excerpt paired with a cocktail or non-alcoholic beverage.
+We don't always have the answers, but we'll always have the Poets. Select a subject and receive a poem or excerpt paired with a cocktail or non-alcoholic beverage.
 
 ## Credits
 
-Design, app styling, content compilation, and editor's notes by Jojo Nickolin. App structure and JavaScript logic built with Claude (Anthropic).
+Functional architecture, app styling, content compilation, and editor's notes by Jojo Nickolin. App structure and JavaScript logic built with Claude (Anthropic).
 
 ## Project Structure
-
+git s
 ```
 gin-and-phonics/
 ├── public/                     # Static assets
