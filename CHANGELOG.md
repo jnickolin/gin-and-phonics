@@ -6,6 +6,20 @@ The format is based on [Keep a Changelog] (https://keepachangelog.com/en/1.1.0),
 
 ## [Unreleased]
 
+## [1.4.2] - 2026-06-17
+
+### Changed
+
+- Update editor's note color
+
+### Added
+
+- Add passage to grief tag
+
+### Removed
+
+- Remove opacity from editor's note date class
+
 ## [1.4.1] - 2026-05-15
 
 ### Changed
