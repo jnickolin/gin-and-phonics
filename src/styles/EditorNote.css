@@ -26,14 +26,14 @@
   font-family: var(--font-handwritten);
   font-size: 2.5rem;
   line-height: 1.5;
-  color: var(--pen-brown);
+  color: var(--pen-red);
   margin: 0;
 }
 
 .editor-note__date {
   font-family: var(--font-handwritten);
   font-size: 2.5rem;
-  color: var(--pen-brown);
+  color: var(--pen-red);
 }
 
 .editor-note__empty {

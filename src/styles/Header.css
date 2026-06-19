@@ -18,7 +18,7 @@
 .header__tagline {
   font-family: var(--font-handwritten);
   font-size: 2.5rem;
-  color: var(--pen-brown);
+  color: var(--pen-red);
   text-align: right;
   max-width: 350px;
   line-height: 1.4;
