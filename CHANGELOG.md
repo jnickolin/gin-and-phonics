@@ -6,6 +6,16 @@ The format is based on [Keep a Changelog] (https://keepachangelog.com/en/1.1.0),
 
 ## [Unreleased]
 
+## [1.4.5] - 2026-06-26
+
+### Added
+
+- Add "The Richest Person in the World" to passages data
+
+### Changed
+
+- Fix typographical errors in Excerpt from "The Heroic Ideal..."
+
 ## [1.4.4] - 2026-06-22
 
 ### Added
